@@ -1,4 +1,4 @@
-= Réunion de rentrée des M1 AMIS, DataScale, IRS et SeCReTS
+= Réunion de rentrée -- M1 AMIS, DataScale, IRS et SeCReTS
 include::meta.adoc[]
 :doctype: article
 :toc: left
@@ -8,8 +8,366 @@ include::meta.adoc[]
 :sectnums:
 include::attributes.adoc[]
 
-== Titre 1
+== Généralités
+=== Formalités administratives
+* Inscription Administrative : En ligne (urgent)
+* Inscription Pédagogique : fiche IP à remplir et à remettre
 
-== Titre 2
+=== Contacts
+* Coordinateurs des M1 informatiques : Stéphane LOPES (stephane.lopes@uvsq.fr)
+* Secrétariat du département informatique : Fabienne CHEVALIER (fabienne.chevalier@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
+* Directeur du département informatique : Franck QUESSETTE (franck.quessette@uvsq.fr)
 
-== Titre 3
+[cols="1,1,1"]
+|===
+|Master
+|Responsable(s)
+|Scolarité
+
+|AMIS
+|Thierry MAUTOR (thierry.mautor@uvsq.fr)
+|Bureau des Masters (UFR des Sciences, bât. Fermat)
+
+|DataScale
+|Zoubida KEDAD (zoubida.kedad@uvsq.fr), Philippe PUCHERAL (philippe.pucheral@uvsq.fr)
+|Bureau des Masters (UFR des Sciences, bât. Fermat)
+
+|IRS
+|Mourad GUEROUI (mourad.guerroui@uvsq.fr)
+|Patricia BENOÎT (patricia.benoit@uvsq.fr, ISTY)
+
+|SeCReTS
+|Louis GOUBIN (louis.goubin@uvsq.fr)
+|Bureau des Masters (UFR des Sciences, bât. Fermat)
+
+|===
+
+=== Calendrier universitaire
+==== Semestre 1
+Début des cours : 18 septembre 2023
+Fin des cours le vendredi 27 octobre 2023 après les cours, Reprise des cours le lundi 6 novembre 2023
+vendredi 22 décembre 2023 après les cours au lundi 8 janvier 2024
+Examens session 1
+
+==== Semestre 2
+Début des cours : janvier 2024
+Fin des cours : vendredi 16 février 2024 après les cours - Reprise des cours : lundi 26 février 2024
+Fin des cours : vendredi 12 avril 2024 après les cours - Reprise des cours : lundi 22 avril 2024
+Examens session 1 :
+Examens session 2 :
+
+=== Vos outils
+* Emplois du temps : https://edt.uvsq.fr
+* ECampus : https://ecampus.paris-saclay.fr
+* Règlements, outils, informations, ... : http://www.sciences.uvsq.fr/vie-etudiante
+
+== Enseignements
+=== Première année de master
+* 4 Masters en informatique (AMIS, DataScale, IRS, SeCReTS)
+** les UEs/cours de la première année sont en commun
+** les UEs/cours de la deuxième année sont spécifique
+* Masters Paris-Saclay/UVSQ
+
+=== Structuration
+* 5 Blocs de *Connaissances et de Compétences (BCC)*
+** BCC Socle fondamental 1 (SF1)
+** BCC Compétences et connaissances de base (CCB)
+** BCC Socle fondamental 2 (SF2)
+** BCC Bloc optionnel (BO, 2 UEs au choix)
+** BCC Compétences et connaissances transverses (CCT)
+* Chaque BCC est constitué d’*Unités d’Enseignement (UE)*
+
+IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
+
+=== M1 AMIS
+[cols="~,5,5,5,5,5"]
+|===
+|UE \ BCC|SF1|CCB|SF2|BO|CCT
+
+|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
+
+|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
+
+|Complément de Programmation (MIN17103)     | |✅| | | 
+
+|Algorithmique randomisée et RO (MIN15111)  |✅| | | |  
+
+|Réseaux et systèmes (MIN15112)             | |✅| | | 
+
+|Bases de données avancées (MIN15113)       | |✅| | | 
+
+|Algorithmique de graphes (MIN15121)        |✅| | | |  
+
+|Cryptographie (MIN15122)                   | |✅| | | 
+
+|Méthodes de Ranking (MIN17211)             | | |✅| | 
+
+|Simulation (MIN17212)                      | | |✅| | 
+
+|Tuning de BD (MIN17213)                    | | | |✅| 
+
+|Conception de BD (MIN17214)                | | | |✅| 
+
+|Protocoles IP (MIN17215)                   | | | |✅| 
+
+|Réseaux étendus (MIN17216)                 | | | |✅| 
+
+|Application Web et Sécurité (MIN17217)     | | | |✅| 
+
+|Calcul Sécurisé (MIN17218)                 | | | |✅| 
+
+|Analyses des données EVRY (MIN18000)       | | | |✅| 
+
+|Anglais (MSANGS2I)                         | | | | |✅
+
+|Programmation, GL et Preuve (MIN17201)     | | | | |✅
+
+|TER (MIN15221)                             | | | | |✅
+
+|===
+
+=== M1 DataScale
+[cols="~,5,5,5,5,5"]
+|===
+|UE \ BCC|SF1|CCB|SF2|BO|CCT
+
+|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
+
+|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
+
+|Complément de Programmation (MIN17103)     | |✅| | | 
+
+|Algorithmique randomisée et RO (MIN15111)  | |✅| | |  
+
+|Réseaux et systèmes (MIN15112)             | |✅| | | 
+
+|Bases de données avancées (MIN15113)       |✅| | | | 
+
+|Algorithmique de graphes (MIN15121)        | |✅| | |  
+
+|Cryptographie (MIN15122)                   |✅| | | | 
+
+|Méthodes de Ranking (MIN17211)             | | | |✅| 
+
+|Simulation (MIN17212)                      | | | |✅| 
+
+|Tuning de BD (MIN17213)                    | | |✅| | 
+
+|Conception de BD (MIN17214)                | | |✅| | 
+
+|Protocoles IP (MIN17215)                   | | | |✅| 
+
+|Réseaux étendus (MIN17216)                 | | | |✅| 
+
+|Application Web et Sécurité (MIN17217)     | | | |✅| 
+
+|Calcul Sécurisé (MIN17218)                 | | | |✅| 
+
+|Analyses des données EVRY (MIN18000)       | | | |✅| 
+
+|Anglais (MSANGS2I)                         | | | | |✅
+
+|Programmation, GL et Preuve (MIN17201)     | | | | |✅
+
+|TER (MIN15221)                             | | | | |✅
+
+|===
+
+=== M1 IRS
+[cols="~,5,5,5,5,5"]
+|===
+|UE \ BCC|SF1|CCB|SF2|BO|CCT
+
+|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
+
+|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
+
+|Complément de Programmation (MIN17103)     | |✅| | | 
+
+|Algorithmique randomisée et RO (MIN15111)  |✅| | | |  
+
+|Réseaux et systèmes (MIN15112)             |✅| | | | 
+
+|Bases de données avancées (MIN15113)       | |✅| | | 
+
+|Algorithmique de graphes (MIN15121)        | |✅| | |  
+
+|Cryptographie (MIN15122)                   | |✅| | | 
+
+|Méthodes de Ranking (MIN17211)             | | | |✅| 
+
+|Simulation (MIN17212)                      | | | |✅| 
+
+|Tuning de BD (MIN17213)                    | | | |✅| 
+
+|Conception de BD (MIN17214)                | | | |✅| 
+
+|Protocoles IP (MIN17215)                   | | |✅| | 
+
+|Réseaux étendus (MIN17216)                 | | |✅| | 
+
+|Application Web et Sécurité (MIN17217)     | | | |✅| 
+
+|Calcul Sécurisé (MIN17218)                 | | | |✅| 
+
+|Analyses des données EVRY (MIN18000)       | | | |✅| 
+
+|Anglais (MSANGS2I)                         | | | | |✅
+
+|Programmation, GL et Preuve (MIN17201)     | | | | |✅
+
+|TER (MIN15221)                             | | | | |✅
+
+|===
+
+=== M1 SeCReTS
+[cols="~,5,5,5,5,5"]
+|===
+|UE \ BCC|SF1|CCB|SF2|BO|CCT
+
+|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
+
+|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
+
+|Complément de Programmation (MIN17103)     | |✅| | | 
+
+|Algorithmique randomisée et RO (MIN15111)  | |✅| | |  
+
+|Réseaux et systèmes (MIN15112)             |✅| | | | 
+
+|Bases de données avancées (MIN15113)       | |✅| | | 
+
+|Algorithmique de graphes (MIN15121)        | |✅| | |  
+
+|Cryptographie (MIN15122)                   |✅| | | | 
+
+|Méthodes de Ranking (MIN17211)             | | | |✅| 
+
+|Simulation (MIN17212)                      | | | |✅| 
+
+|Tuning de BD (MIN17213)                    | | | |✅| 
+
+|Conception de BD (MIN17214)                | | | |✅| 
+
+|Protocoles IP (MIN17215)                   | | | |✅| 
+
+|Réseaux étendus (MIN17216)                 | | | |✅| 
+
+|Application Web et Sécurité (MIN17217)     | | |✅| | 
+
+|Calcul Sécurisé (MIN17218)                 | | |✅| | 
+
+|Analyses des données EVRY (MIN18000)       | | | |✅| 
+
+|Anglais (MSANGS2I)                         | | | | |✅
+
+|Programmation, GL et Preuve (MIN17201)     | | | | |✅
+
+|TER (MIN15221)                             | | | | |✅
+
+|===
+
+=== Regroupement des UEs en BCC
+[cols="~,15,15,15,15"]
+|===
+|UE \ BCC|AMIS|DataScale|IRS|SeCReTS
+
+|Complément de Maths Discrètes (MIN17101)   4.3+^.^|CCB
+
+|Complément d'Algo et Complexité (MIN17102)
+
+|Complément de Programmation (MIN17103)
+
+|Algorithmique randomisée et RO (MIN15111)  |#SF1#|CCB|#SF1#|CCB
+
+|Réseaux et systèmes (MIN15112)             |CCB|CCB|#SF1#|#SF1#
+
+|Bases de données avancées (MIN15113)       |CCB|#SF1#|CCB|CCB
+
+|Algorithmique de graphes (MIN15121)        |#SF1#|CCB|CCB|CCB
+
+|Cryptographie (MIN15122)                   |CCB|#SF1#|CCB|#SF1#
+
+|Méthodes de Ranking (MIN17211)             |#SF2#|BO|BO|BO
+
+|Simulation (MIN17212)                      |#SF2#|BO|BO|BO
+
+|Tuning de BD (MIN17213)                    |BO|#SF2#|BO|BO
+
+|Conception de BD (MIN17214)                |BO|#SF2#|BO|BO
+
+|Protocoles IP (MIN17215)                   |BO|BO|#SF2#|BO
+
+|Réseaux étendus (MIN17216)                 |BO|BO|#SF2#|BO
+
+|Application Web et Sécurité (MIN17217)     |BO|BO|BO|#SF2#
+
+|Calcul Sécurisé (MIN17218)                 |BO|BO|BO|#SF2#
+
+|Analyses des données EVRY (MIN18000)       |BO|BO|BO|BO
+
+|Anglais (MSANGS2I)                         4.3+^.^|CCT
+
+|Programmation, GL et Preuve (MIN17201)
+
+|TER (MIN15221)
+
+|===
+
+=== Modalités de Contrôle de Connaissance (1/3)
+* Pour chaque UE classique
+** une note de *Contrôle Continu (CC)* constituée de plusieurs notes
+** une note d’*Examen Terminal (ET)*
+** Note Finale = stem:[("CC" + 2 \times ET) / 3]
+
+* Pour chaque BCC
+** Moyenne Finale = moyenne pondérée par les ECTS des notes finales des UEs qui le constituent
+
+* Compensation
+* entre UEs au sein d'un BCC
+* entre BCCS
+**
+**
+
+IMPORTANT: Seuil de compensation 7/20 !
+
+=== Modalités de Contrôle de Connaissance (2/3)
+* UEs particulières
+** Complément de Maths Discrètes (MIN17101) : seulement un écrit en session 1 et en session 2 (pas de CC)
+** Complément d'Algo et Complexité (MIN17102) : seulement un écrit en session 1 et en session 2 (pas de CC)
+** Complément de Programmation (MIN17103) : uniquement un CC en session 1 et un écrit en session 2
+** Application Web et Sécurité (MIN17217) : uniquement un CC en session 1, *pas de session 2*
+** Anglais (MSANGS2I) : uniquement un CC en session 1 et un écrit en session 2
+** TER (MIN15221) : uniquement un CC en session 1, *pas de session 2*
+
+=== Modalités de Contrôle de Connaissance (3/3)
+* L'année est acquise si
+**
+
+
+=== Absences
+* Absence justifiée (ABJ)
+** justificatif déposé à la scolarité dans les 5 jours ouvrés suivants le retour
+** à une épreuve de CC => épreuve de rattrapage des CC
+** à un examen de session 1 => 0/20 à l’examen + examen de session 2
+** à un examen de session 2 => 0/20 à l’examen
+
+* Absence injustifiée (ABI)
+** à une épreuve de CC => 0/20 à l'épreuve
+** à un examen de session 1 => *Défaillant* à l’examen + examen de session 2
+** à un examen de session 2 => *Défaillant* à l’examen
+
+== Autour des enseignements
+=== Service d’Accompagnement des Etudiants et des Personnels en situation de Handicap (SAEPH)
+* Que vous soyez en situation de handicap temporaire ou permanente,
+* Que vous ayez une maladie chronique, de longue durée ou invalidante,
+* Si votre situation évolue en cours d’année
+
+N’hésitez pas à vous renseigner sans attendre !
+Pour tout renseignement :
+http://www.sciences.uvsq.fr/vie-etudiante
+
+=== Étudiant salarié
+
+=== Liens utiles
+* Comment bien travailler ? Vidéo : Mieux apprendre et étudier : les (vraies) techniques scientifiques.
