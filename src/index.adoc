@@ -1,0 +1,15 @@
+= Réunion de rentrée des M1 AMIS, DataScale, IRS et SeCReTS
+include::meta.adoc[]
+:doctype: article
+:toc: left
+:toc-title: Sommaire
+:sectanchors:
+:sectlinks:
+:sectnums:
+include::attributes.adoc[]
+
+== Titre 1
+
+== Titre 2
+
+== Titre 3
