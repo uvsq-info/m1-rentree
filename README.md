@@ -1,6 +1,6 @@
 # Réunion de rentrée des M1 AMIS, DataScale, IRS et SeCReTS
 
-![Build status](https://github.com/uvsq-pef/prog-efficace/actions/workflows/deploy.yml/badge.svg)
+![Build status](https://github.com/uvsq-info/m1-rentree/actions/workflows/deploy.yml/badge.svg)
 
 ## Construction du document
 Les outils suivants doivent être installés sur le système.
