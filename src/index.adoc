@@ -61,7 +61,7 @@ Examens session 2 :
 * ECampus : https://ecampus.paris-saclay.fr
 * Règlements, outils, informations, ... : http://www.sciences.uvsq.fr/vie-etudiante
 
-== Enseignements
+== Unités d'enseignement (UEs) et blocs (BCCs)
 === Première année de master
 * 4 Masters en informatique (AMIS, DataScale, IRS, SeCReTS)
 ** les UEs/cours de la première année sont en commun
@@ -70,205 +70,19 @@ Examens session 2 :
 
 === Structuration
 * 5 Blocs de *Connaissances et de Compétences (BCC)*
-** BCC Socle fondamental 1 (SF1)
-** BCC Compétences et connaissances de base (CCB)
-** BCC Socle fondamental 2 (SF2)
-** BCC Bloc optionnel (BO, 2 UEs au choix)
-** BCC Compétences et connaissances transverses (CCT)
 * Chaque BCC est constitué d’*Unités d’Enseignement (UE)*
+* Premier semestre (8 UEs)
+** BCC Socle fondamental 1 (SF1, 2 UEs)
+** BCC Compétences et connaissances de base (CCB, 6 UEs)
+* Deuxième semestre (7 UEs)
+** BCC Socle fondamental 2 (SF2, 2 UEs)
+** BCC Bloc optionnel (BO, 2 UEs au choix)
+** BCC Compétences et connaissances transverses (CCT, 3 UEs)
 
 IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 
-=== M1 AMIS
-[cols="~,5,5,5,5,5"]
-|===
-|UE \ BCC|SF1|CCB|SF2|BO|CCT
-
-|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
-
-|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
-
-|Complément de Programmation (MIN17103)     | |✅| | | 
-
-|Algorithmique randomisée et RO (MIN15111)  |✅| | | |  
-
-|Réseaux et systèmes (MIN15112)             | |✅| | | 
-
-|Bases de données avancées (MIN15113)       | |✅| | | 
-
-|Algorithmique de graphes (MIN15121)        |✅| | | |  
-
-|Cryptographie (MIN15122)                   | |✅| | | 
-
-|Méthodes de Ranking (MIN17211)             | | |✅| | 
-
-|Simulation (MIN17212)                      | | |✅| | 
-
-|Tuning de BD (MIN17213)                    | | | |✅| 
-
-|Conception de BD (MIN17214)                | | | |✅| 
-
-|Protocoles IP (MIN17215)                   | | | |✅| 
-
-|Réseaux étendus (MIN17216)                 | | | |✅| 
-
-|Application Web et Sécurité (MIN17217)     | | | |✅| 
-
-|Calcul Sécurisé (MIN17218)                 | | | |✅| 
-
-|Analyses des données EVRY (MIN18000)       | | | |✅| 
-
-|Anglais (MSANGS2I)                         | | | | |✅
-
-|Programmation, GL et Preuve (MIN17201)     | | | | |✅
-
-|TER (MIN15221)                             | | | | |✅
-
-|===
-
-=== M1 DataScale
-[cols="~,5,5,5,5,5"]
-|===
-|UE \ BCC|SF1|CCB|SF2|BO|CCT
-
-|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
-
-|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
-
-|Complément de Programmation (MIN17103)     | |✅| | | 
-
-|Algorithmique randomisée et RO (MIN15111)  | |✅| | |  
-
-|Réseaux et systèmes (MIN15112)             | |✅| | | 
-
-|Bases de données avancées (MIN15113)       |✅| | | | 
-
-|Algorithmique de graphes (MIN15121)        | |✅| | |  
-
-|Cryptographie (MIN15122)                   |✅| | | | 
-
-|Méthodes de Ranking (MIN17211)             | | | |✅| 
-
-|Simulation (MIN17212)                      | | | |✅| 
-
-|Tuning de BD (MIN17213)                    | | |✅| | 
-
-|Conception de BD (MIN17214)                | | |✅| | 
-
-|Protocoles IP (MIN17215)                   | | | |✅| 
-
-|Réseaux étendus (MIN17216)                 | | | |✅| 
-
-|Application Web et Sécurité (MIN17217)     | | | |✅| 
-
-|Calcul Sécurisé (MIN17218)                 | | | |✅| 
-
-|Analyses des données EVRY (MIN18000)       | | | |✅| 
-
-|Anglais (MSANGS2I)                         | | | | |✅
-
-|Programmation, GL et Preuve (MIN17201)     | | | | |✅
-
-|TER (MIN15221)                             | | | | |✅
-
-|===
-
-=== M1 IRS
-[cols="~,5,5,5,5,5"]
-|===
-|UE \ BCC|SF1|CCB|SF2|BO|CCT
-
-|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
-
-|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
-
-|Complément de Programmation (MIN17103)     | |✅| | | 
-
-|Algorithmique randomisée et RO (MIN15111)  |✅| | | |  
-
-|Réseaux et systèmes (MIN15112)             |✅| | | | 
-
-|Bases de données avancées (MIN15113)       | |✅| | | 
-
-|Algorithmique de graphes (MIN15121)        | |✅| | |  
-
-|Cryptographie (MIN15122)                   | |✅| | | 
-
-|Méthodes de Ranking (MIN17211)             | | | |✅| 
-
-|Simulation (MIN17212)                      | | | |✅| 
-
-|Tuning de BD (MIN17213)                    | | | |✅| 
-
-|Conception de BD (MIN17214)                | | | |✅| 
-
-|Protocoles IP (MIN17215)                   | | |✅| | 
-
-|Réseaux étendus (MIN17216)                 | | |✅| | 
-
-|Application Web et Sécurité (MIN17217)     | | | |✅| 
-
-|Calcul Sécurisé (MIN17218)                 | | | |✅| 
-
-|Analyses des données EVRY (MIN18000)       | | | |✅| 
-
-|Anglais (MSANGS2I)                         | | | | |✅
-
-|Programmation, GL et Preuve (MIN17201)     | | | | |✅
-
-|TER (MIN15221)                             | | | | |✅
-
-|===
-
-=== M1 SeCReTS
-[cols="~,5,5,5,5,5"]
-|===
-|UE \ BCC|SF1|CCB|SF2|BO|CCT
-
-|Complément de Maths Discrètes (MIN17101)   | |✅| | | 
-
-|Complément d'Algo et Complexité (MIN17102) | |✅| | | 
-
-|Complément de Programmation (MIN17103)     | |✅| | | 
-
-|Algorithmique randomisée et RO (MIN15111)  | |✅| | |  
-
-|Réseaux et systèmes (MIN15112)             |✅| | | | 
-
-|Bases de données avancées (MIN15113)       | |✅| | | 
-
-|Algorithmique de graphes (MIN15121)        | |✅| | |  
-
-|Cryptographie (MIN15122)                   |✅| | | | 
-
-|Méthodes de Ranking (MIN17211)             | | | |✅| 
-
-|Simulation (MIN17212)                      | | | |✅| 
-
-|Tuning de BD (MIN17213)                    | | | |✅| 
-
-|Conception de BD (MIN17214)                | | | |✅| 
-
-|Protocoles IP (MIN17215)                   | | | |✅| 
-
-|Réseaux étendus (MIN17216)                 | | | |✅| 
-
-|Application Web et Sécurité (MIN17217)     | | |✅| | 
-
-|Calcul Sécurisé (MIN17218)                 | | |✅| | 
-
-|Analyses des données EVRY (MIN18000)       | | | |✅| 
-
-|Anglais (MSANGS2I)                         | | | | |✅
-
-|Programmation, GL et Preuve (MIN17201)     | | | | |✅
-
-|TER (MIN15221)                             | | | | |✅
-
-|===
-
 === Regroupement des UEs en BCC
-[cols="~,15,15,15,15"]
+[cols="~,10,10,10,10"]
 |===
 |UE \ BCC|AMIS|DataScale|IRS|SeCReTS
 
@@ -314,38 +128,52 @@ IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 
 |===
 
-=== Modalités de Contrôle de Connaissance (1/3)
-* Pour chaque UE classique
-** une note de *Contrôle Continu (CC)* constituée de plusieurs notes
-** une note d’*Examen Terminal (ET)*
-** Note Finale = stem:[("CC" + 2 \times ET) / 3]
+== Modalités de Contrôle de Connaissances
+=== UEs classiques
+* Une note de *Contrôle Continu (CC)* constituée de plusieurs notes
+* Une note d’*Examen Terminal (ET)*
+* Note Finale = stem:[("CC" + 2 \times ET) / 3]
+* L'UE est acquise si sa note finale est stem:[>=10/20]
 
-* Pour chaque BCC
-** Moyenne Finale = moyenne pondérée par les ECTS des notes finales des UEs qui le constituent
+WARNING: La note de CC est prise en compte également pour la 2ème session !
 
-* Compensation
-* entre UEs au sein d'un BCC
-* entre BCCS
-**
-**
+=== UEs particulières
+* Complément de Maths Discrètes (MIN17101) : seulement un écrit en session 1 et en session 2 (#pas de CC#)
+* Complément d'Algo et Complexité (MIN17102) : seulement un écrit en session 1 et en session 2 (#pas de CC#)
+* Complément de Programmation (MIN17103) : uniquement un CC en session 1 et un écrit en session 2
+* Application Web et Sécurité (MIN17217) : uniquement un CC en session 1, #pas de session 2#
+* Anglais (MSANGS2I) : uniquement un CC en session 1 et un écrit en session 2
+* TER (MIN15221) : uniquement un CC en session 1, #pas de session 2#
 
-IMPORTANT: Seuil de compensation 7/20 !
+=== Compensation entre UEs au sein d'un BCC
+* Une UE est compensée si la note finale de l'UE est stem:[>=7/20] et si le BCC est acquis
 
-=== Modalités de Contrôle de Connaissance (2/3)
-* UEs particulières
-** Complément de Maths Discrètes (MIN17101) : seulement un écrit en session 1 et en session 2 (pas de CC)
-** Complément d'Algo et Complexité (MIN17102) : seulement un écrit en session 1 et en session 2 (pas de CC)
-** Complément de Programmation (MIN17103) : uniquement un CC en session 1 et un écrit en session 2
-** Application Web et Sécurité (MIN17217) : uniquement un CC en session 1, *pas de session 2*
-** Anglais (MSANGS2I) : uniquement un CC en session 1 et un écrit en session 2
-** TER (MIN15221) : uniquement un CC en session 1, *pas de session 2*
+WARNING: Seuil de compensation à stem:[7/20] !
 
-=== Modalités de Contrôle de Connaissance (3/3)
-* L'année est acquise si
-**
+=== Au niveau des BCCs
+* Moyenne Finale = moyenne pondérée par les ECTS des notes finales des UEs qui le constituent
+* Le BCC est acquis si sa moyenne finale est stem:[>=10/20]
 
+IMPORTANT: L'année est acquise si chaque BCC est acquis.
+
+=== Compensation entre BCCs
+[sidebar]
+.Règle de compensation
+--
+Un BCC B1 est compensé par un BCC B2 si
+
+* B2 est acquis, ET
+* les notes finales des UEs de B1 sont toutes stem:[>=7/20], ET
+* la moyenne pondérée de B1 et B2 est stem:[>=10/20]
+--
+
+* CCB peut être compensé par SF1
+* CCT peut être compensé par BO
+* BO peut être compensé par CCT
 
 === Absences
+CAUTION: Les cours (CMs et TDs) sont obligatoires.
+
 * Absence justifiée (ABJ)
 ** justificatif déposé à la scolarité dans les 5 jours ouvrés suivants le retour
 ** à une épreuve de CC => épreuve de rattrapage des CC
@@ -356,6 +184,26 @@ IMPORTANT: Seuil de compensation 7/20 !
 ** à une épreuve de CC => 0/20 à l'épreuve
 ** à un examen de session 1 => *Défaillant* à l’examen + examen de session 2
 ** à un examen de session 2 => *Défaillant* à l’examen
+
+=== Conservation/refus de notes
+Immédiatement après le jury de 1ère session, vous pouvez faire une demande
+
+* de *conservation de note* pour une note de première session stem:[>=7/20],
+* de *refus de notes* pour une note de première session stem:[>=10/20] s'il existe une seconde session,
+** vous êtes alors ajourné à cette UE et donc à la première session.
+* de *refus de compensation* dans un bloc.
+** vous êtes alors ajourné à la première session.
+
+La demande doit être approuvée par le responsable de la formation puis communiquée à la scolarité sous *5 jours ouvrés* à compter de la date de
+publication des résultats de jurys.
+
+=== Redoublement
+CAUTION: Le redoublement n’est pas systématique mais soumis à la décision du jury.
+
+D’une année sur l’autre demeurent acquises
+
+* les UEs des blocs acquis,
+* les UEs acquises.
 
 == Autour des enseignements
 === Service d’Accompagnement des Etudiants et des Personnels en situation de Handicap (SAEPH)

@@ -1,0 +1,26 @@
+name: Build with Asciidoctor and deploy on gh-pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - name: Install Graphviz
+      run: sudo apt-get install -y graphviz
+    - name: Run asciidoctor
+      run: bundle exec rake
+    - name: Deploy on gh-pages
+      uses: NickSchimek/deploy_jamstack_action@v1
+      with:
+        build-dir: html
