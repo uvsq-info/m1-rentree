@@ -7,6 +7,10 @@ include::meta.adoc[]
 :sectlinks:
 :sectnums:
 include::attributes.adoc[]
+:amis: https://www.uvsq.fr/master-1-algorithmique-et-modelisation-a-linterface-des-sciences[AMIS]
+:ds: https://www.uvsq.fr/master-1-datascale-gestion-des-donnees-et-extraction-de-connaissances-a-large-echelle[DataScale]
+:irs: https://www.uvsq.fr/master-1-ingenierie-des-systemes-en-reseaux-voie-initiale-continue[IRS]
+:sec: https://www.uvsq.fr/master-1-securite-des-contenus-des-reseaux-des-telecommunications-et-des-systemes-secrets[SeCReTS]
 
 == Généralités
 === Formalités administratives
@@ -14,63 +18,68 @@ include::attributes.adoc[]
 * Inscription Pédagogique : fiche IP à remplir et à remettre
 
 === Contacts
-* Coordinateurs des M1 informatiques : Stéphane LOPES (stephane.lopes@uvsq.fr)
-* Secrétariat du département informatique : Fabienne CHEVALIER (fabienne.chevalier@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
-* Directeur du département informatique : Franck QUESSETTE (franck.quessette@uvsq.fr)
+[horizontal]
+Coordinateurs des M1 informatiques:: Stéphane LOPES (stephane.lopes@uvsq.fr)
+Secrétariat du département informatique:: Fabienne CHEVALIER (fabienne.chevalier@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
+Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq.fr)
 
-[cols="1,1,1"]
+=== Contacts par Master
+[%header,cols="10,~,~"]
 |===
 |Master
 |Responsable(s)
 |Scolarité
 
-|AMIS
+|{amis}
 |Thierry MAUTOR (thierry.mautor@uvsq.fr)
 |Bureau des Masters (UFR des Sciences, bât. Fermat)
 
-|DataScale
+|{ds}
 |Zoubida KEDAD (zoubida.kedad@uvsq.fr), Philippe PUCHERAL (philippe.pucheral@uvsq.fr)
 |Bureau des Masters (UFR des Sciences, bât. Fermat)
 
-|IRS
+|{irs}
 |Mourad GUEROUI (mourad.guerroui@uvsq.fr)
 |Patricia BENOÎT (patricia.benoit@uvsq.fr, ISTY)
 
-|SeCReTS
+|{sec}
 |Louis GOUBIN (louis.goubin@uvsq.fr)
 |Bureau des Masters (UFR des Sciences, bât. Fermat)
 
 |===
 
-=== Calendrier universitaire
-==== Semestre 1
-Début des cours : 18 septembre 2023
-Fin des cours le vendredi 27 octobre 2023 après les cours, Reprise des cours le lundi 6 novembre 2023
-vendredi 22 décembre 2023 après les cours au lundi 8 janvier 2024
-Examens session 1
+=== Calendrier universitaire (Semestre 1)
+[horizontal]
+18/09/2023:: début des cours
+???:: Forum entreprises PS
+28/10/2023:: vacances de la Toussaint (fin des cours le vendredi 27/10/2023 après les cours, reprise lundi 6/11/2023)
+Début décembre:: présentation des UEs du BO
+18/12/2023:: fiches IP avec les choix des UEs optionnelles
+23/12/2023:: vacances de Noël (fin des cours le vendredi 22/12/2023 après les cours, reprise lundi 8/01/2024)
+??/01/2024:: révisions et rattrapages
+??/01/2024:: examens de session 1
 
-==== Semestre 2
-Début des cours : janvier 2024
-Fin des cours : vendredi 16 février 2024 après les cours - Reprise des cours : lundi 26 février 2024
-Fin des cours : vendredi 12 avril 2024 après les cours - Reprise des cours : lundi 22 avril 2024
-Examens session 1 :
-Examens session 2 :
-
-=== Vos outils
-* Emplois du temps : https://edt.uvsq.fr
-* ECampus : https://ecampus.paris-saclay.fr
-* Règlements, outils, informations, ... : http://www.sciences.uvsq.fr/vie-etudiante
+=== Calendrier universitaire (Semestre 2)
+[horizontal]
+??/01/2024:: début des cours du second semestre
+Février:: jury pour le premier semestre
+17/02/2024:: vacances d'hiver (fin des cours le vendredi 16/02/2024 après les cours, reprise lundi 26/02/2024)
+13/04/2024:: vacances de printemps (fin des cours le vendredi 12/04/2024 après les cours, reprise lundi 22/04/2024)
+??/05/2024:: examens de session 1
+Juin:: jury annuel (session 1)
+??/06/2024:: examens de session 2
+Juillet:: jury annuel (session 2)
 
 == Unités d'enseignement (UEs) et blocs (BCCs)
 === Première année de master
 * 4 Masters en informatique (AMIS, DataScale, IRS, SeCReTS)
 ** les UEs/cours de la première année sont en commun
-** les UEs/cours de la deuxième année sont spécifique
-* Masters Paris-Saclay/UVSQ
+** les UEs/cours de la deuxième année sont spécifiques
+* Masters Paris-Saclay (https://www.universite-paris-saclay.fr/graduate-schools/graduate-school-informatique-et-sciences-du-numerique[GS ISN])/UVSQ
 
 === Structuration
 * 5 Blocs de *Connaissances et de Compétences (BCC)*
-* Chaque BCC est constitué d’*Unités d’Enseignement (UE)*
+* Chaque BCC est constitué d’*Unités d’Enseignement (UE)* permettant d'obtenir des *ECTS*
 * Premier semestre (8 UEs)
 ** BCC Socle fondamental 1 (SF1, 2 UEs)
 ** BCC Compétences et connaissances de base (CCB, 6 UEs)
@@ -82,7 +91,7 @@ Examens session 2 :
 IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 
 === Regroupement des UEs en BCC
-[cols="~,10,10,10,10"]
+[%header,cols="~,10,10,10,10"]
 |===
 |UE \ BCC|AMIS|DataScale|IRS|SeCReTS
 
@@ -92,33 +101,60 @@ IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 
 |Complément de Programmation (MIN17103)
 
-|Algorithmique randomisée et RO (MIN15111)  |#SF1#|CCB|#SF1#|CCB
+ifdef::backend-revealjs[]
+|===
 
-|Réseaux et systèmes (MIN15112)             |CCB|CCB|#SF1#|#SF1#
+=== Regroupement des UEs en BCC
+[%header,cols="~,10,10,10,10"]
+|===
+|UE \ BCC|AMIS|DataScale|IRS|SeCReTS
+endif::[]
 
-|Bases de données avancées (MIN15113)       |CCB|#SF1#|CCB|CCB
+|Algorithmique randomisée et RO (MIN15111)  |#*SF1*#|CCB|#*SF1*#|CCB
 
-|Algorithmique de graphes (MIN15121)        |#SF1#|CCB|CCB|CCB
+|Réseaux et systèmes (MIN15112)             |CCB|CCB|#*SF1*#|#*SF1*#
 
-|Cryptographie (MIN15122)                   |CCB|#SF1#|CCB|#SF1#
+|Bases de données avancées (MIN15113)       |CCB|#*SF1*#|CCB|CCB
 
-|Méthodes de Ranking (MIN17211)             |#SF2#|BO|BO|BO
+|Algorithmique de graphes (MIN15121)        |#*SF1*#|CCB|CCB|CCB
 
-|Simulation (MIN17212)                      |#SF2#|BO|BO|BO
+|Cryptographie (MIN15122)                   |CCB|#*SF1*#|CCB|#*SF1*#
 
-|Tuning de BD (MIN17213)                    |BO|#SF2#|BO|BO
+ifdef::backend-revealjs[]
+|===
 
-|Conception de BD (MIN17214)                |BO|#SF2#|BO|BO
+=== Regroupement des UEs en BCC
+[%header,cols="~,10,10,10,10"]
+|===
+|UE \ BCC|AMIS|DataScale|IRS|SeCReTS
+endif::[]
 
-|Protocoles IP (MIN17215)                   |BO|BO|#SF2#|BO
+|Méthodes de Ranking (MIN17211)             |#*SF2*#|BO|BO|BO
 
-|Réseaux étendus (MIN17216)                 |BO|BO|#SF2#|BO
+|Simulation (MIN17212)                      |#*SF2*#|BO|BO|BO
 
-|Application Web et Sécurité (MIN17217)     |BO|BO|BO|#SF2#
+|Tuning de BD (MIN17213)                    |BO|#*SF2*#|BO|BO
 
-|Calcul Sécurisé (MIN17218)                 |BO|BO|BO|#SF2#
+|Conception de BD (MIN17214)                |BO|#*SF2*#|BO|BO
+
+|Protocoles IP (MIN17215)                   |BO|BO|#*SF2*#|BO
+
+|Réseaux étendus (MIN17216)                 |BO|BO|#*SF2*#|BO
+
+|Application Web et Sécurité (MIN17217)     |BO|BO|BO|#*SF2*#
+
+|Calcul Sécurisé (MIN17218)                 |BO|BO|BO|#*SF2*#
 
 |Analyses des données EVRY (MIN18000)       |BO|BO|BO|BO
+
+ifdef::backend-revealjs[]
+|===
+
+=== Regroupement des UEs en BCC
+[%header,cols="~,10,10,10,10"]
+|===
+|UE \ BCC|AMIS|DataScale|IRS|SeCReTS
+endif::[]
 
 |Anglais (MSANGS2I)                         4.3+^.^|CCT
 
@@ -129,7 +165,7 @@ IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 |===
 
 == Modalités de Contrôle de Connaissances
-=== UEs classiques
+=== UEs « classiques »
 * Une note de *Contrôle Continu (CC)* constituée de plusieurs notes
 * Une note d’*Examen Terminal (ET)*
 * Note Finale = stem:[("CC" + 2 \times ET) / 3]
@@ -138,12 +174,13 @@ IMPORTANT: les regroupements des UEs en BCC sont différents selon les parcours.
 WARNING: La note de CC est prise en compte également pour la 2ème session !
 
 === UEs particulières
-* Complément de Maths Discrètes (MIN17101) : seulement un écrit en session 1 et en session 2 (#pas de CC#)
-* Complément d'Algo et Complexité (MIN17102) : seulement un écrit en session 1 et en session 2 (#pas de CC#)
-* Complément de Programmation (MIN17103) : uniquement un CC en session 1 et un écrit en session 2
-* Application Web et Sécurité (MIN17217) : uniquement un CC en session 1, #pas de session 2#
-* Anglais (MSANGS2I) : uniquement un CC en session 1 et un écrit en session 2
-* TER (MIN15221) : uniquement un CC en session 1, #pas de session 2#
+[horizontal]
+Complément de Maths Discrètes (MIN17101):: seulement un écrit en session 1 et en session 2 (#*pas de CC*#)
+Complément d'Algo et Complexité (MIN17102):: seulement un écrit en session 1 et en session 2 (#*pas de CC*#)
+Complément de Programmation (MIN17103):: uniquement un CC en session 1 et un écrit en session 2
+Application Web et Sécurité (MIN17217):: uniquement un CC en session 1, #*pas de session 2*#
+Anglais (MSANGS2I):: uniquement un CC en session 1 et un écrit en session 2
+TER (MIN15221):: uniquement un CC en session 1, #*pas de session 2*#
 
 === Compensation entre UEs au sein d'un BCC
 * Une UE est compensée si la note finale de l'UE est stem:[>=7/20] et si le BCC est acquis
@@ -167,6 +204,7 @@ Un BCC B1 est compensé par un BCC B2 si
 * la moyenne pondérée de B1 et B2 est stem:[>=10/20]
 --
 
+.Compensations possibles
 * CCB peut être compensé par SF1
 * CCT peut être compensé par BO
 * BO peut être compensé par CCT
@@ -209,13 +247,27 @@ D’une année sur l’autre demeurent acquises
 === Service d’Accompagnement des Etudiants et des Personnels en situation de Handicap (SAEPH)
 * Que vous soyez en situation de handicap temporaire ou permanente,
 * Que vous ayez une maladie chronique, de longue durée ou invalidante,
-* Si votre situation évolue en cours d’année
+* Si votre situation évolue en cours d’année,
 
-N’hésitez pas à vous renseigner sans attendre !
-Pour tout renseignement :
-http://www.sciences.uvsq.fr/vie-etudiante
+[IMPORTANT] 
+.N’hésitez pas à vous renseigner sans attendre !
+====
+Pour tout renseignement : https://www.sciences.uvsq.fr/relais-handicap
+====
 
-=== Étudiant salarié
+=== Régime spécifique d’études (RSE)
+* Dans certaines situations, un étudiant peut bénéficier d'aménagement de ses études
+** en particulier, cela inclut le cas des *étudiants salariés* (sous certaines conditions)
+* Informations sur le Régime spécifique d’études (RSE) : https://www.uvsq.fr/les-cas-particuliers
 
-=== Liens utiles
+=== IN001 ???
+
+== Liens utiles
+=== Vos outils et liens
+[horizontal]
+Emplois du temps:: https://edt.uvsq.fr
+ECampus:: https://ecampus.paris-saclay.fr
+Règlements, outils, informations, ...:: http://www.sciences.uvsq.fr/vie-etudiante
+
+.Divers
 * Comment bien travailler ? Vidéo : Mieux apprendre et étudier : les (vraies) techniques scientifiques.
