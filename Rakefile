@@ -29,7 +29,7 @@ end
 desc "Initialise le répertoire des images"
 directory "html/figs" => "html" do |t|
     mkdir_p t.name
-    cp Dir["figs/*.png", "figs/*.svg"], t.name
+    cp Dir["src/figs/*.png", "src/figs/*.svg"], t.name
 end
 
 desc "Initialise le répertoire des feuilles de styles CSS"
