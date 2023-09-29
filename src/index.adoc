@@ -1,6 +1,7 @@
 = Réunion de rentrée -- M1 AMIS, DataScale, IRS et SeCReTS
 include::meta.adoc[]
 :doctype: article
+:title-page:
 :toc: left
 :toc-title: Sommaire
 :sectanchors:
@@ -255,37 +256,62 @@ image::gs.png[Graduate School,800,600]
 Pour vous aider:: journée d'accueil, « research week », cérémonie de remise des diplômes
 Pour vous proposer:: des opportunités à l'international, des écoles d'été, des offres de stages, le réseau des alumni
 
+[.columns]
 === PhD Master’s programme
+ifndef::backend-revealjs[]
 [.float-group]
 --
 [.right]
+endif::[]
+ifdef::backend-revealjs[]
+[.column]
+endif::[]
 image::phdmaster.png[PhD Master’s programme,450,600]
 
+[.column]
 * La GS organise un programme pour accompagner les étudiants et étudiantes de niveau master à construire leur projet de thèse et à mieux préparer leur entrée en doctorat.
 * Il est ouvert à tous les étudiants et étudiantes et peut prendre différentes formes : séminaires, mentorat, rencontres avec des chercheurs, forum master/doctorat, etc.
+ifndef::backend-revealjs[]
 --
+endif::[]
 
+[.columns]
 === PhD Track
+ifndef::backend-revealjs[]
 [.float-group]
 --
 [.right]
+endif::[]
+ifdef::backend-revealjs[]
+[.column]
+endif::[]
 image::phdtrack.png[PhD Track,450,600]
 
-Les étudiants et étudiantes en M1 de l’Université Paris-Saclay peuvent candidater au PhD Track de l’Université, qui propose, sur sélection :
+[.column]
+* Les étudiants et étudiantes en M1 de l’Université Paris-Saclay peuvent candidater au PhD Track de l’Université, qui propose, sur sélection :
 
-* Le suivi du PhD Master’s programme
-* Un accompagnement par un mentor
-* Une *bourse d’étude* de dix mois renouvelable une fois après avis de la commission de suivi du PhD Track
-* Un *contrat doctoral à l’issue du Master 2* sous réserve d’un avis favorable de l’école doctorale concernée
-* Un engagement de l’étudiant ou de l’étudiante à *être ambassadeur ou ambassadrice* de l’Université Paris-Saclay sur sa thématique
+** le suivi du PhD Master’s programme,
+** un accompagnement par un mentor,
+** une *bourse d’étude* de dix mois renouvelable une fois après avis de la commission de suivi du PhD Track,
+** un *contrat doctoral à l’issue du Master 2* sous réserve d’un avis favorable de l’école doctorale concernée,
+** un engagement de l’étudiant ou de l’étudiante à *être ambassadeur ou ambassadrice* de l’Université Paris-Saclay sur sa thématique.
+ifndef::backend-revealjs[]
 --
+endif::[]
 
+[.columns]
 === PhD Track, un programme spécifique
+ifndef::backend-revealjs[]
 [.float-group]
 --
 [.right]
+endif::[]
+ifdef::backend-revealjs[]
+[.column]
+endif::[]
 image::phdtrack.png[PhD Track,450,600]
 
+[.column]
 * Dans l’une des deux thématiques de recherche 
 ** Développement soutenable
 ** Sciences pour la Santé
@@ -293,7 +319,9 @@ image::phdtrack.png[PhD Track,450,600]
 ** un accompagnement à votre candidature 
 ** l’aide à la constitution du dossier
 ** sur appel à projet (AAP) : 15 personnes en M1 sélectionnées
+ifndef::backend-revealjs[]
 --
+endif::[]
 
 === Forum entreprise le 19 octobre
 image::forum.png[Forum entreprise,450,600]
