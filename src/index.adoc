@@ -357,5 +357,19 @@ ECampus:: https://ecampus.paris-saclay.fr
 Bibliothèque:: https://www.bib.uvsq.fr/
 Règlements, outils, informations, ...:: http://www.sciences.uvsq.fr/vie-etudiante
 
-.Divers
+=== Les services de Paris-Saclay
+[horizontal]
+L'accueil des étudiants:: accueil.etudiant@universite-paris-saclay.fr
+La vie associative:: associations.etudiantes@universite-paris-saclay.fr
+Le logement:: Iogement.etudiant@universite-paris-sacIay.fr
+L’emploi étudiant:: job.etudiant@universite-paris-saclay.fr
+Les aides sociales et matérielles:: aides.etudiant@universite-paris-saclay.fr
+Le handicap:: handicap.etudiant@universite-paris-saclay.fr
+La CVEC:: cvec.etudiant@universite-paris-sacIay.fr
+Le service civique:: service.civique@universite-paris-saclay.fr
+La direction:: direction.dveec@universite-paris-saclay.fr
+Le tutorat:: tutorat.vie-etudiante@universite-paris-saclay.fr
+Plateforme logement CASA:: https://casa.universite-paris-saclay.fr/fr/
+
+=== Divers
 * https://scienceetonnante.com/2023/09/01/mieux-apprendre-etudier-les-vraies-techniques-scientifiques/[Mieux apprendre & étudier : les (vraies) techniques scientifiques]
