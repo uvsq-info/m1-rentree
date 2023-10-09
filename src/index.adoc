@@ -239,6 +239,8 @@ Immédiatement après le jury de 1ère session, vous pouvez faire une demande
 La demande doit être approuvée par le responsable de la formation puis communiquée à la scolarité sous *5 jours ouvrés* à compter de la date de
 publication des résultats de jurys.
 
+IMPORTANT: Ces demandes ne peuvent se faire qu'entre la session 1 et la session 2 *d'une même année*.
+
 === Redoublement
 CAUTION: Le redoublement n’est pas systématique mais soumis à la décision du jury.
 
