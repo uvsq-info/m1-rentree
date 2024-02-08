@@ -64,13 +64,13 @@ Début décembre:: présentation des UEs du BO
 === Calendrier universitaire (Semestre 2)
 [horizontal]
 22/01/2024:: début des cours du second semestre
-Février:: jury pour le premier semestre
+26/02/2024:: jury pour le premier semestre
 17/02/2024:: vacances d'hiver (fin des cours le vendredi 16/02/2024 après les cours, reprise lundi 26/02/2024)
 13/04/2024:: vacances de printemps (fin des cours le vendredi 12/04/2024 après les cours, reprise lundi 22/04/2024)
-??/05/2024:: examens de session 1
-Juin:: jury annuel (session 1)
-??/06/2024:: examens de session 2
-Juillet:: jury annuel (session 2)
+27/05/2024:: examens de session 1
+17/06/2024:: jury annuel (session 1)
+24/06/2024:: examens de session 2
+08/07/2024:: jury annuel (session 2)
 
 == Unités d'enseignement (UEs) et blocs (BCCs)
 === Les masters AMIS, DataScale, IRS, et SeCReTS
@@ -351,6 +351,15 @@ Pour tout renseignement : https://www.sciences.uvsq.fr/relais-handicap
 ** en particulier, cela inclut le cas des *étudiants salariés* (sous certaines conditions)
 * Informations sur le Régime spécifique d’études (RSE) : https://www.uvsq.fr/les-cas-particuliers
 
+=== Bonnes pratiques de communication par email
+Pour communiquer avec vos enseignants ou dans le cadre de vos études :
+
+* utilisez systématiquement votre adresse `@ens.uvsq.fr`,
+* renseignez précisément l'objet de l'email,
+* présentez-vous (nom, promo, N° d'étudiant),
+* expliquez le contexte (pour quelle UE ?),
+* soyez polis, évitez les fautes => *relisez-vous*
+
 == Liens utiles
 === Vos outils et liens
 [horizontal]
@@ -358,6 +367,7 @@ Emplois du temps:: https://edt.uvsq.fr/cal?vt=agendaWeek&et=group&fid0=M1%20DATA
 ECampus:: https://ecampus.paris-saclay.fr
 Bibliothèque:: https://www.bib.uvsq.fr/
 Règlements, outils, informations, ...:: http://www.sciences.uvsq.fr/vie-etudiante
+Règlement des études de l'université Paris-Saclay:: https://www.universite-paris-saclay.fr/reglement-des-etudes
 
 === Les services de Paris-Saclay
 [horizontal]
