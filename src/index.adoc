@@ -67,10 +67,11 @@ Début décembre:: présentation des UEs du BO
 26/02/2024:: jury pour le premier semestre
 17/02/2024:: vacances d'hiver (fin des cours le vendredi 16/02/2024 après les cours, reprise lundi 26/02/2024)
 13/04/2024:: vacances de printemps (fin des cours le vendredi 12/04/2024 après les cours, reprise lundi 22/04/2024)
-27/05/2024:: examens de session 1
-17/06/2024:: jury annuel (session 1)
-24/06/2024:: examens de session 2
-08/07/2024:: jury annuel (session 2)
+27/05/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-05-27&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 1]
+10/06/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-06-10&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 2] (UEs du premier semestre)
+13/06/2024:: jury annuel (session 1)
+01/07/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-07-01&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 2] (UEs du second semestre)
+11/07/2024:: jury final
 
 == Unités d'enseignement (UEs) et blocs (BCCs)
 === Les masters AMIS, DataScale, IRS, et SeCReTS
