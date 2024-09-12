@@ -2,7 +2,7 @@ require 'rake/clean'
 # rake/clean définit CLEAN (Rake::FileList) pour les fichiers temporaires
 # et CLOBBER (Rake::FileList) pour les fichiers de sortie
 
-REVEALJS_VERION = "4.5.0"
+REVEALJS_VERION = "5.1.0"
 
 # ajoute les fichiers html comme fichiers intermédiaire
 CLEAN << "html/index.html"

@@ -23,6 +23,7 @@ Inscription Pédagogique:: fiche IP à remplir et à remettre au secrétariat du
 [horizontal]
 Coordinateurs des M1 informatiques:: Stéphane LOPES (stephane.lopes@uvsq.fr)
 Secrétariat pédagogique du département informatique:: Fabienne CHEVALIER (fabienne.chevalier@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
+Service de la scolarité de l'UFR des Sciences:: Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq.fr)
 
 === Contacts par Master
@@ -33,49 +34,49 @@ Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq
 |Scolarité
 
 |{amis}
-|Thierry MAUTOR (thierry.mautor@uvsq.fr)
-|Bureau des Masters (UFR des Sciences, bât. Fermat)
+|Pierre COUCHENEY (pierre.coucheney@uvsq.fr)
+|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |{ds}
 |Zoubida KEDAD (zoubida.kedad@uvsq.fr), Philippe PUCHERAL (philippe.pucheral@uvsq.fr)
-|Bureau des Masters (UFR des Sciences, bât. Fermat)
+|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |{irs}
 |Mourad GUEROUI (mourad.guerroui@uvsq.fr)
-|Patricia BENOÎT (patricia.benoit@uvsq.fr, ISTY)
+|Lamia ES-SAI (lamia.es-sai@uvsq.fr, ISTY)
 
 |{sec}
 |Louis GOUBIN (louis.goubin@uvsq.fr)
-|Bureau des Masters (UFR des Sciences, bât. Fermat)
+|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |===
 
 === Calendrier universitaire (Semestre 1)
 [horizontal]
-18/09/2023:: début des cours
-19/10/2023:: Forum entreprises de 10h à 17h à Polytech Paris-Saclay
-28/10/2023:: vacances de la Toussaint (fin des cours le vendredi 27/10/2023 après les cours, reprise lundi 6/11/2023)
-Début décembre:: présentation des UEs du BO
-18/12/2023:: fiches IP avec les choix des UEs optionnelles
-23/12/2023:: vacances de Noël (fin des cours le vendredi 22/12/2023 après les cours, reprise lundi 8/01/2024)
-08/01/2024:: révisions et rattrapages
-15/01/2024:: examens de session 1
+16/09/2024:: début des cours
+15/10/2024:: Forum entreprises de 10h à 17h à Polytech Paris-Saclay
+26/10/2024:: vacances de la Toussaint (fin des cours le vendredi 25/10/2024 après les cours, reprise lundi 4/11/2024)
+Début décembre:: présentation des UEs du bloc optionnel du second semestre
+16/12/2024:: fiches IP avec les choix des UEs optionnelles
+21/12/2024:: vacances de Noël (fin des cours le vendredi 20/12/2024 après les cours, reprise lundi 6/01/2025)
+06/01/2025:: révisions et rattrapages
+13/01/2025:: examens de session 1
 
 === Calendrier universitaire (Semestre 2)
 [horizontal]
-22/01/2024:: début des cours du second semestre
-26/02/2024:: jury pour le premier semestre
-17/02/2024:: vacances d'hiver (fin des cours le vendredi 16/02/2024 après les cours, reprise lundi 26/02/2024)
-13/04/2024:: vacances de printemps (fin des cours le vendredi 12/04/2024 après les cours, reprise lundi 22/04/2024)
-27/05/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-05-27&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 1]
-10/06/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-06-10&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 2] (UEs du premier semestre)
-13/06/2024:: jury annuel (session 1)
-01/07/2024:: https://edt.uvsq.fr/cal?vt=agendaWeek&dt=2024-07-01&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20[examens de session 2] (UEs du second semestre)
-11/07/2024:: jury final
+20/01/2025:: début des cours du second semestre
+Février 2025:: jury pour le premier semestre
+22/02/2025:: vacances d'hiver (fin des cours le vendredi 21/02/2025 après les cours, reprise lundi 3/03/2025)
+19/04/2025:: vacances de printemps (fin des cours le vendredi 18/04/2025 après les cours, reprise lundi 28/04/2025)
+26/05/2025:: examens de session 1
+09/06/2025:: examens de session 2 (UEs du premier semestre)
+Mi juin 2025:: jury annuel (session 1)
+30/06/2025:: examens de session 2 (UEs du second semestre)
+Mi juillet 2025:: jury final
 
 == Unités d'enseignement (UEs) et blocs (BCCs)
 === Les masters AMIS, DataScale, IRS, et SeCReTS
-* 4 Masters en informatique (AMIS, DataScale, IRS, SeCReTS)
+* 4 parcours de Master en informatique (AMIS, DataScale, IRS, SeCReTS)
 ** première année : UEs/cours en commun
 ** deuxième année : UEs/cours spécifiques
 * Masters Paris-Saclay (https://www.universite-paris-saclay.fr/graduate-schools/graduate-school-informatique-et-sciences-du-numerique[GS ISN])/UVSQ
@@ -197,20 +198,20 @@ WARNING: Seuil de compensation à stem:[7/20] !
 IMPORTANT: L'année est acquise si chaque BCC est acquis.
 
 === Compensation entre BCCs
-[sidebar]
-.Règle de compensation
---
-Un BCC B1 est compensé par un BCC B2 si
 
-* B2 est acquis, ET
-* les notes finales des UEs de B1 sont toutes stem:[>=7/20], ET
-* la moyenne pondérée de B1 et B2 est stem:[>=10/20]
---
+IMPORTANT: SF1 et SF2 ne sont pas compensables.
 
 .Compensations possibles
 * CCB peut être compensé par SF1
-* CCT peut être compensé par BO
-* BO peut être compensé par CCT
+* CCT et BO peuvent être compensés par SF2, BO et CCT
+
+=== Validation de l'année
+* Toutes les notes finales des UE doivent être supérieures ou égales au seuil de compensation (7/20).
+* La moyenne des UE du bloc SF1 pondérées par leurs ECTS doit être supérieure ou égale à 10.
+* La moyenne des UE du bloc SF2 pondérées par leurs ECTS doit être supérieure ou égale à 10.
+* La moyenne des UE des blocs SF1 et CCB pondérées par leurs ECTS doit être supérieure ou égale à 10.
+* La moyenne des UE des blocs SF2, BO et CCT pondérées par leurs ECTS doit être supérieure ou égale à 10.
+* La moyenne de toutes les UE de l'année pondérées par leurs ECTS doit être supérieure ou égale à 10.
 
 === Absences
 CAUTION: Les cours (CMs et TDs) sont obligatoires.
@@ -232,13 +233,14 @@ WARNING: le statut *Défaillant* se propage aux résultats du BCC et de l'année
 Immédiatement après le jury de 1ère session, vous pouvez faire une demande
 
 * de *conservation de note* pour une note de première session stem:[>=7/20],
+** pas de conservation pour les UEs des blocs fondamentaux (SF1 et SF2)
+** pas de conservation pour les UEs de Compléments (Compléments d'algorithmique, Compléments de mathématiques et Complément de programmation)
 * de *refus de notes* pour une note de première session stem:[>=10/20] s'il existe une seconde session,
 ** vous êtes alors ajourné à cette UE et donc à la première session.
 * de *refus de compensation* dans un bloc.
 ** vous êtes alors ajourné à la première session.
 
-La demande doit être approuvée par le responsable de la formation puis communiquée à la scolarité sous *5 jours ouvrés* à compter de la date de
-publication des résultats de jurys.
+La demande doit être approuvée par le responsable de la formation puis communiquée à la scolarité sous *5 jours ouvrés* à compter de la date de publication des résultats de jurys.
 
 IMPORTANT: Ces demandes ne peuvent se faire qu'entre la session 1 et la session 2 *d'une même année*.
 
@@ -249,6 +251,14 @@ D’une année sur l’autre demeurent acquises
 
 * les UEs des blocs acquis,
 * les UEs acquises.
+
+=== Changement de parcours
+
+IMPORTANT: les changements de parcours demeurent exceptionnels.
+
+* Toutes les demandes sont traitées lors des jurys du M1 (premier semestre ou final)
+* L’étudiant doit bien sûr avoir choisi les UEs du BO du parcours cible au second semestre
+* Si le jury accepte le changement de parcours, l’étudiant sera donc “transféré” dans le parcours cible (il devra valider le parcours cible).
 
 == Graduate School ISN
 === Graduate School ?
@@ -326,15 +336,6 @@ ifndef::backend-revealjs[]
 --
 endif::[]
 
-=== Forum entreprise le 19 octobre
-image::forum.png[Forum entreprise,450,600]
-
-=== Activité théâtre
-image::theatre.png[Activité théâtre,450,600]
-
-=== Grande enquête Master
-image::enquete.png[Grande enquête Master,800,600]
-
 == Autour des enseignements
 === Service d’Accompagnement des Etudiants et des Personnels en situation de Handicap (SAEPH)
 * Que vous soyez en situation de handicap temporaire ou permanente,
@@ -360,11 +361,12 @@ Pour communiquer avec vos enseignants ou dans le cadre de vos études :
 * présentez-vous (nom, promo, N° d'étudiant),
 * expliquez le contexte (pour quelle UE ?),
 * soyez polis, évitez les fautes => *relisez-vous*
+* laissez le temps à votre interlocuteur de vous répondre (pas de harcèlement)
 
 == Liens utiles
 === Vos outils et liens
 [horizontal]
-Emplois du temps:: https://edt.uvsq.fr/cal?vt=agendaWeek&et=group&fid0=M1%20DATASCALE&fid1=M1%20AMIS&fid2=M1%20SECRETS&fid3=MYIRS1_20
+Emplois du temps:: https://edt.uvsq.fr/cal?vt=agendaWeek&et=group&fid0=M1%20Info
 ECampus:: https://ecampus.paris-saclay.fr
 Bibliothèque:: https://www.bib.uvsq.fr/
 Règlements, outils, informations, ...:: http://www.sciences.uvsq.fr/vie-etudiante
