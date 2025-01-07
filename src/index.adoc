@@ -22,7 +22,7 @@ Inscription Pédagogique:: fiche IP à remplir et à remettre au secrétariat du
 === Contacts
 [horizontal]
 Coordinateurs des M1 informatiques:: Stéphane LOPES (stephane.lopes@uvsq.fr)
-Secrétariat pédagogique du département informatique:: Fabienne CHEVALIER (fabienne.chevalier@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
+Secrétariat pédagogique du département informatique:: Clémence PEREZ (clemence.perez@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
 Service de la scolarité de l'UFR des Sciences:: Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq.fr)
 
