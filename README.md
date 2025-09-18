@@ -10,6 +10,8 @@ Les outils suivants doivent être installés sur le système.
 
 ### Installation des dépendances (gems)
 ```
+$ bundle config set --local path vendor/bundle
+$ bundle config set --local bin bin/
 $ bundle install
 ```
 

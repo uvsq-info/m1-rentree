@@ -17,13 +17,13 @@ include::attributes.adoc[]
 === Formalités administratives
 [horizontal]
 Inscription Administrative:: en ligne (urgent)
-Inscription Pédagogique:: fiche IP à remplir et à remettre au secrétariat du département informatique avant à la date indiquée
+Inscription Pédagogique:: en ligne (urgent)
 
 === Contacts
 [horizontal]
 Coordinateurs des M1 informatiques:: Stéphane LOPES (stephane.lopes@uvsq.fr)
 Secrétariat pédagogique du département informatique:: Clémence PEREZ (clemence.perez@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
-Service de la scolarité de l'UFR des Sciences:: Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
+Service de la scolarité de l'UFR des Sciences:: Ophélie BRÉGIER (ophelie.bregier@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq.fr)
 
 === Contacts par Master
@@ -35,11 +35,11 @@ Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq
 
 |{amis}
 |Pierre COUCHENEY (pierre.coucheney@uvsq.fr)
-|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
+|Ophélie BRÉGIER (ophelie.bregier@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |{ds}
-|Zoubida KEDAD (zoubida.kedad@uvsq.fr), Philippe PUCHERAL (philippe.pucheral@uvsq.fr)
-|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
+|Zoubida KEDAD (zoubida.kedad@uvsq.fr), Mustapha LEBBAH (mustapha.lebbah@uvsq.fr)
+|Ophélie BRÉGIER (ophelie.bregier@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |{irs}
 |Mourad GUEROUI (mourad.guerroui@uvsq.fr)
@@ -47,32 +47,33 @@ Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq
 
 |{sec}
 |Louis GOUBIN (louis.goubin@uvsq.fr)
-|Aurélie STOQUERT (aurelie.stoquert@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
+|Ophélie BRÉGIER (ophelie.bregier@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
 
 |===
 
 === Calendrier universitaire (Semestre 1)
 [horizontal]
-16/09/2024:: début des cours
-15/10/2024:: Forum entreprises de 10h à 17h à Polytech Paris-Saclay
-26/10/2024:: vacances de la Toussaint (fin des cours le vendredi 25/10/2024 après les cours, reprise lundi 4/11/2024)
+15/09/2025:: début des cours
+01/10/2025:: après-midi d'intégration (GS ISN)
+14/10/2025:: https://www.polytech.universite-paris-saclay.fr/evenements-polytech/forum-entreprises-2025[Forum entreprises] de 10h à 17h à Polytech Paris-Saclay
+25/10/2025:: vacances de la Toussaint (fin des cours le vendredi 25/10/2025 après les cours, reprise lundi 3/11/2025)
 Début décembre:: présentation des UEs du bloc optionnel du second semestre
-16/12/2024:: fiches IP avec les choix des UEs optionnelles
-21/12/2024:: vacances de Noël (fin des cours le vendredi 20/12/2024 après les cours, reprise lundi 6/01/2025)
-06/01/2025:: révisions et rattrapages
-13/01/2025:: examens de session 1
+15/12/2025:: fiches IP avec les choix des UEs optionnelles
+20/12/2025:: vacances de Noël (fin des cours le vendredi 20/12/2025 après les cours, reprise lundi 5/01/2026)
+05/01/2026:: révisions et rattrapages
+12/01/2026:: examens de session 1
 
 === Calendrier universitaire (Semestre 2)
 [horizontal]
-20/01/2025:: début des cours du second semestre
-Février 2025:: jury pour le premier semestre
-22/02/2025:: vacances d'hiver (fin des cours le vendredi 21/02/2025 après les cours, reprise lundi 3/03/2025)
-19/04/2025:: vacances de printemps (fin des cours le vendredi 18/04/2025 après les cours, reprise lundi 28/04/2025)
-26/05/2025:: examens de session 1
-09/06/2025:: examens de session 2 (UEs du premier semestre)
-Mi juin 2025:: jury annuel (session 1)
-30/06/2025:: examens de session 2 (UEs du second semestre)
-Mi juillet 2025:: jury final
+19/01/2026:: début des cours du second semestre
+Février 2026:: jury pour le premier semestre
+27/02/2026:: vacances d'hiver (fin des cours le vendredi 27/02/2026 après les cours, reprise lundi 9/03/2026)
+24/04/2026:: vacances de printemps (fin des cours le vendredi 24/04/2026 après les cours, reprise lundi 04/05/2026)
+25/05/2026:: examens de session 1
+08/06/2026:: examens de session 2 (UEs du premier semestre)
+Mi juin 2026:: jury annuel (session 1)
+30/06/2026:: examens de session 2 (UEs du second semestre)
+Début juillet 2026:: jury final
 
 == Unités d'enseignement (UEs) et blocs (BCCs)
 === Les masters AMIS, DataScale, IRS, et SeCReTS
@@ -264,10 +265,20 @@ IMPORTANT: les changements de parcours demeurent exceptionnels.
 === Graduate School ?
 image::gs.png[Graduate School,800,600]
 
+=== GS Informatique et Sciences du Numérique (ISN)
+* 5 opérateurs : Fac des sciences d'Orsay, UVSQ, Université d'Évry, CentraleSupélec, ENS Paris-Saclay
+* 22 parcours de M1, 23 parcours de M2
+* École doctorale STIC (500 doctorants)
+
 === Rôle de la GS ISN
 [horizontal]
 Pour vous aider:: journée d'accueil, « research week », cérémonie de remise des diplômes
 Pour vous proposer:: des opportunités à l'international, des écoles d'été, des offres de stages, le réseau des alumni
+
+image::gs_quoi.png[Actions de la GS ISN]
+
+=== Vos contacts à la GS ISN
+image::gs_orga.png[Vos contacts à la GS ISN]
 
 [.columns]
 === PhD Master’s programme
@@ -312,32 +323,8 @@ ifndef::backend-revealjs[]
 --
 endif::[]
 
-[.columns]
-=== PhD Track, un programme spécifique
-ifndef::backend-revealjs[]
-[.float-group]
---
-[.right]
-endif::[]
-ifdef::backend-revealjs[]
-[.column]
-endif::[]
-image::phdtrack.png[PhD Track,450,600]
-
-[.column]
-* Dans l’une des deux thématiques de recherche 
-** Développement soutenable
-** Sciences pour la Santé
-* Si le PhD Track vous intéresse, votre GS propose : 
-** un accompagnement à votre candidature 
-** l’aide à la constitution du dossier
-** sur appel à projet (AAP) : 15 personnes en M1 sélectionnées
-ifndef::backend-revealjs[]
---
-endif::[]
-
 == Autour des enseignements
-=== Service d’Accompagnement des Etudiants et des Personnels en situation de Handicap (SAEPH)
+=== Service d’Accompagnement des Étudiants et des Personnels en situation de Handicap (SAEPH)
 * Que vous soyez en situation de handicap temporaire ou permanente,
 * Que vous ayez une maladie chronique, de longue durée ou invalidante,
 * Si votre situation évolue en cours d’année,

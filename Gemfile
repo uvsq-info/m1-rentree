@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rake', '>= 13.2'
+gem 'rake', '>= 13.3'
 gem 'asciidoctor', '>= 2.0'
-gem 'asciidoctor-diagram', '>= 2.3'
-gem 'asciidoctor-revealjs', '>= 5.1'
+gem 'asciidoctor-diagram', '>= 3.0'
+gem 'asciidoctor-revealjs', '>= 5.2'
