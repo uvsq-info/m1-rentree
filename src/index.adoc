@@ -340,6 +340,10 @@ Pour tout renseignement : https://www.sciences.uvsq.fr/relais-handicap
 ** en particulier, cela inclut le cas des *étudiants salariés* (sous certaines conditions)
 * Informations sur le Régime spécifique d’études (RSE) : https://www.uvsq.fr/les-cas-particuliers
 
+=== Bourses et aides étudiantes
+* Les https://www.uvsq.fr/aides-etudiantes[différentes aides] présentés sur le site de l'UVSQ
+* Les https://www.universite-paris-saclay.fr/admission/bourses-et-aides-financieres[différentes bourses et aides] sur le site de l'université Paris-Saclay
+
 === Bonnes pratiques de communication par email
 Pour communiquer avec vos enseignants ou dans le cadre de vos études :
 
