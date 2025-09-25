@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="author" content="Stéphane Lopes">
+<title>Réunion de rentrée&#8201;&#8212;&#8201;M1 AMIS, DataScale, IRS et SeCReTS</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/github.min.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<h1>Réunion de rentrée&#8201;&#8212;&#8201;M1 AMIS, DataScale, IRS et SeCReTS</h1>
+<div class="details">
+<span id="author" class="author">Stéphane Lopes</span><br>
+<span id="email" class="email"><a href="mailto:stephane.lopes@uvsq.fr">stephane.lopes@uvsq.fr</a></span><br>
+<span id="revnumber">version 2025-2026</span>
+</div>
+<div id="toc" class="toc2">
+<div id="toctitle">Sommaire</div>
+<ul class="sectlevel1">
+<li><a href="#_informations_utiles">1. Informations utiles</a>
+<ul class="sectlevel2">
+<li><a href="#_formalités_administratives">1.1. Formalités administratives</a></li>
+<li><a href="#_contacts">1.2. Contacts</a></li>
+<li><a href="#_rôles_des_secrétariats">1.3. Rôles des secrétariats</a></li>
+<li><a href="#_contacts_par_master">1.4. Contacts par Master</a></li>
+<li><a href="#_calendrier_universitaire_semestre_1">1.5. Calendrier universitaire (Semestre 1)</a></li>
+<li><a href="#_calendrier_universitaire_semestre_2">1.6. Calendrier universitaire (Semestre 2)</a></li>
+</ul>
+</li>
+<li><a href="#_unités_denseignement_ues_et_blocs_bccs">2. Unités d&#8217;enseignement (UEs) et blocs (BCCs)</a>
+<ul class="sectlevel2">
+<li><a href="#_les_masters_amis_datascale_irs_et_secrets">2.1. Les masters AMIS, DataScale, IRS, et SeCReTS</a></li>
+<li><a href="#_structuration">2.2. Structuration</a></li>
+<li><a href="#_regroupement_des_ues_en_bcc">2.3. Regroupement des UEs en BCC</a></li>
+</ul>
+</li>
+<li><a href="#_modalités_de_contrôle_de_connaissances">3. Modalités de Contrôle de Connaissances</a>
+<ul class="sectlevel2">
+<li><a href="#_ues_classiques">3.1. UEs « classiques »</a></li>
+<li><a href="#_ues_particulières">3.2. UEs particulières</a></li>
+<li><a href="#_compensation_entre_ues_au_sein_dun_bcc">3.3. Compensation entre UEs au sein d&#8217;un BCC</a></li>
+<li><a href="#_au_niveau_des_bccs">3.4. Au niveau des BCCs</a></li>
+<li><a href="#_compensation_entre_bccs">3.5. Compensation entre BCCs</a></li>
+<li><a href="#_validation_de_lannée">3.6. Validation de l&#8217;année</a></li>
+<li><a href="#_absences">3.7. Absences</a></li>
+<li><a href="#_conservationrefus_de_notes">3.8. Conservation/refus de notes</a></li>
+<li><a href="#_redoublement">3.9. Redoublement</a></li>
+<li><a href="#_changement_de_parcours">3.10. Changement de parcours</a></li>
+</ul>
+</li>
+<li><a href="#_graduate_school_isn">4. Graduate School ISN</a>
+<ul class="sectlevel2">
+<li><a href="#_graduate_school">4.1. Graduate School ?</a></li>
+<li><a href="#_gs_informatique_et_sciences_du_numérique_isn">4.2. GS Informatique et Sciences du Numérique (ISN)</a></li>
+<li><a href="#_rôle_de_la_gs_isn">4.3. Rôle de la GS ISN</a></li>
+<li><a href="#_vos_contacts_à_la_gs_isn">4.4. Vos contacts à la GS ISN</a></li>
+<li><a href="#_phd_masters_programme">4.5. PhD Master’s programme</a></li>
+<li><a href="#_phd_track">4.6. PhD Track</a></li>
+</ul>
+</li>
+<li><a href="#_autour_des_enseignements">5. Autour des enseignements</a>
+<ul class="sectlevel2">
+<li><a href="#_service_daccompagnement_des_étudiants_et_des_personnels_en_situation_de_handicap_saeph">5.1. Service d’Accompagnement des Étudiants et des Personnels en situation de Handicap (SAEPH)</a></li>
+<li><a href="#_régime_spécifique_détudes_rse">5.2. Régime spécifique d’études (RSE)</a></li>
+<li><a href="#_bourses_et_aides_étudiantes">5.3. Bourses et aides étudiantes</a></li>
+<li><a href="#_bonnes_pratiques_de_communication_par_email">5.4. Bonnes pratiques de communication par email</a></li>
+</ul>
+</li>
+<li><a href="#_liens_utiles">6. Liens utiles</a>
+<ul class="sectlevel2">
+<li><a href="#_vos_outils_et_liens">6.1. Vos outils et liens</a></li>
+<li><a href="#_les_services_de_paris_saclay">6.2. Les services de Paris-Saclay</a></li>
+<li><a href="#_divers">6.3. Divers</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_informations_utiles"><a class="anchor" href="#_informations_utiles"></a><a class="link" href="#_informations_utiles">1. Informations utiles</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_formalités_administratives"><a class="anchor" href="#_formalités_administratives"></a><a class="link" href="#_formalités_administratives">1.1. Formalités administratives</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Inscription Administrative
+</td>
+<td class="hdlist2">
+<p>en ligne (urgent)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Inscription Pédagogique
+</td>
+<td class="hdlist2">
+<p>en ligne (urgent)</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contacts"><a class="anchor" href="#_contacts"></a><a class="link" href="#_contacts">1.2. Contacts</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Coordinateurs des M1 informatiques
+</td>
+<td class="hdlist2">
+<p>Stéphane LOPES (<a href="mailto:stephane.lopes@uvsq.fr">stephane.lopes@uvsq.fr</a>)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Secrétariat pédagogique du département informatique
+</td>
+<td class="hdlist2">
+<p>Clémence PEREZ (<a href="mailto:clemence.perez@uvsq.fr">clemence.perez@uvsq.fr</a>, UFR des Sciences, bât. Descartes, bureau 221B)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Service de la scolarité de l&#8217;UFR des Sciences
+</td>
+<td class="hdlist2">
+<p>Ophélie BRÉGIER (<a href="mailto:ophelie.bregier@uvsq.fr">ophelie.bregier@uvsq.fr</a>, UFR des Sciences, bât. Fermat, Bureau des Master)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Service de la scolarité de l&#8217;ISTY
+</td>
+<td class="hdlist2">
+<p>Lamia ES-SAI (<a href="mailto:lamia.es-sai@uvsq.fr">lamia.es-sai@uvsq.fr</a>, ISTY)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Directeur du département informatique
+</td>
+<td class="hdlist2">
+<p>Franck QUESSETTE (<a href="mailto:franck.quessette@uvsq.fr">franck.quessette@uvsq.fr</a>)</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rôles_des_secrétariats"><a class="anchor" href="#_rôles_des_secrétariats"></a><a class="link" href="#_rôles_des_secrétariats">1.3. Rôles des secrétariats</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Secrétariat pédagogique</p>
+<div class="ulist">
+<ul>
+<li>
+<p>gérer les groupes de TD</p>
+</li>
+<li>
+<p>faire l&#8217;interface avec les enseignants</p>
+</li>
+<li>
+<p>assister les étudiants dans leurs démarches</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Service de la scolarité</p>
+<div class="ulist">
+<ul>
+<li>
+<p>gérer les dossiers administratifs des étudiants (certificats de scolarité, relevés de notes, diplômes, conventions de stage …)</p>
+</li>
+<li>
+<p>gérer le calendrier des études et de la scolarité</p>
+</li>
+<li>
+<p>gérer les calendrier d&#8217;examens</p>
+</li>
+<li>
+<p>organiser les Jurys des différents niveaux de formation</p>
+</li>
+<li>
+<p>justifier une absence pour un TD ou CC (dans les 5 jours ouvrés)</p>
+</li>
+<li>
+<p>gestion des Inscription Administrative et Pédagogique</p>
+</li>
+<li>
+<p>demande d&#8217;attestation d&#8217;assiduité.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_contacts_par_master"><a class="anchor" href="#_contacts_par_master"></a><a class="link" href="#_contacts_par_master">1.4. Contacts par Master</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 10%;">
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Master</th>
+<th class="tableblock halign-left valign-top">Responsable(s)</th>
+<th class="tableblock halign-left valign-top">Scolarité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uvsq.fr/master-1-algorithmique-et-modelisation-a-linterface-des-sciences">AMIS</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pierre COUCHENEY (<a href="mailto:pierre.coucheney@uvsq.fr">pierre.coucheney@uvsq.fr</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ophélie BRÉGIER (<a href="mailto:ophelie.bregier@uvsq.fr">ophelie.bregier@uvsq.fr</a>, UFR des Sciences, bât. Fermat, Bureau des Master)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uvsq.fr/master-1-datascale-gestion-des-donnees-et-extraction-de-connaissances-a-large-echelle">DataScale</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Zoubida KEDAD (<a href="mailto:zoubida.kedad@uvsq.fr">zoubida.kedad@uvsq.fr</a>), Mustapha LEBBAH (<a href="mailto:mustapha.lebbah@uvsq.fr">mustapha.lebbah@uvsq.fr</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ophélie BRÉGIER (<a href="mailto:ophelie.bregier@uvsq.fr">ophelie.bregier@uvsq.fr</a>, UFR des Sciences, bât. Fermat, Bureau des Master)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uvsq.fr/master-1-ingenierie-des-systemes-en-reseaux-voie-initiale-continue">IRS</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mourad GUEROUI (<a href="mailto:mourad.guerroui@uvsq.fr">mourad.guerroui@uvsq.fr</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Lamia ES-SAI (<a href="mailto:lamia.es-sai@uvsq.fr">lamia.es-sai@uvsq.fr</a>, ISTY)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.uvsq.fr/master-1-securite-des-contenus-des-reseaux-des-telecommunications-et-des-systemes-secrets">SeCReTS</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Louis GOUBIN (<a href="mailto:louis.goubin@uvsq.fr">louis.goubin@uvsq.fr</a>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ophélie BRÉGIER (<a href="mailto:ophelie.bregier@uvsq.fr">ophelie.bregier@uvsq.fr</a>, UFR des Sciences, bât. Fermat, Bureau des Master)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_calendrier_universitaire_semestre_1"><a class="anchor" href="#_calendrier_universitaire_semestre_1"></a><a class="link" href="#_calendrier_universitaire_semestre_1">1.5. Calendrier universitaire (Semestre 1)</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+15/09/2025
+</td>
+<td class="hdlist2">
+<p>début des cours</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+01/10/2025
+</td>
+<td class="hdlist2">
+<p>après-midi d&#8217;intégration (GS ISN)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+14/10/2025
+</td>
+<td class="hdlist2">
+<p><a href="https://www.polytech.universite-paris-saclay.fr/evenements-polytech/forum-entreprises-2025">Forum entreprises</a> de 10h à 17h à Polytech Paris-Saclay</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+25/10/2025
+</td>
+<td class="hdlist2">
+<p>vacances de la Toussaint (fin des cours le vendredi 25/10/2025 après les cours, reprise lundi 3/11/2025)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Début décembre
+</td>
+<td class="hdlist2">
+<p>présentation des UEs du bloc optionnel du second semestre</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+15/12/2025
+</td>
+<td class="hdlist2">
+<p>fiches IP avec les choix des UEs optionnelles</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+20/12/2025
+</td>
+<td class="hdlist2">
+<p>vacances de Noël (fin des cours le vendredi 20/12/2025 après les cours, reprise lundi 5/01/2026)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+05/01/2026
+</td>
+<td class="hdlist2">
+<p>révisions et rattrapages</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+12/01/2026
+</td>
+<td class="hdlist2">
+<p>examens de session 1</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_calendrier_universitaire_semestre_2"><a class="anchor" href="#_calendrier_universitaire_semestre_2"></a><a class="link" href="#_calendrier_universitaire_semestre_2">1.6. Calendrier universitaire (Semestre 2)</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+19/01/2026
+</td>
+<td class="hdlist2">
+<p>début des cours du second semestre</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Février 2026
+</td>
+<td class="hdlist2">
+<p>jury pour le premier semestre</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+27/02/2026
+</td>
+<td class="hdlist2">
+<p>vacances d&#8217;hiver (fin des cours le vendredi 27/02/2026 après les cours, reprise lundi 9/03/2026)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+24/04/2026
+</td>
+<td class="hdlist2">
+<p>vacances de printemps (fin des cours le vendredi 24/04/2026 après les cours, reprise lundi 04/05/2026)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+25/05/2026
+</td>
+<td class="hdlist2">
+<p>examens de session 1</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+08/06/2026
+</td>
+<td class="hdlist2">
+<p>examens de session 2 (UEs du premier semestre)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Mi juin 2026
+</td>
+<td class="hdlist2">
+<p>jury annuel (session 1)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+30/06/2026
+</td>
+<td class="hdlist2">
+<p>examens de session 2 (UEs du second semestre)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Début juillet 2026
+</td>
+<td class="hdlist2">
+<p>jury final</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_unités_denseignement_ues_et_blocs_bccs"><a class="anchor" href="#_unités_denseignement_ues_et_blocs_bccs"></a><a class="link" href="#_unités_denseignement_ues_et_blocs_bccs">2. Unités d&#8217;enseignement (UEs) et blocs (BCCs)</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_les_masters_amis_datascale_irs_et_secrets"><a class="anchor" href="#_les_masters_amis_datascale_irs_et_secrets"></a><a class="link" href="#_les_masters_amis_datascale_irs_et_secrets">2.1. Les masters AMIS, DataScale, IRS, et SeCReTS</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>4 parcours de Master en informatique (AMIS, DataScale, IRS, SeCReTS)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>première année : UEs/cours en commun</p>
+</li>
+<li>
+<p>deuxième année : UEs/cours spécifiques</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Masters Paris-Saclay (<a href="https://www.universite-paris-saclay.fr/graduate-schools/graduate-school-informatique-et-sciences-du-numerique">GS ISN</a>)/UVSQ</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_structuration"><a class="anchor" href="#_structuration"></a><a class="link" href="#_structuration">2.2. Structuration</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>5 Blocs de <strong>Connaissances et de Compétences (BCC)</strong></p>
+</li>
+<li>
+<p>Chaque BCC est constitué d’<strong>Unités d’Enseignement (UE)</strong> permettant d&#8217;obtenir des <strong>ECTS</strong></p>
+</li>
+<li>
+<p>Premier semestre (8 UEs)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>BCC Socle fondamental 1 (SF1, 2 UEs)</p>
+</li>
+<li>
+<p>BCC Compétences et connaissances de base (CCB, 6 UEs)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Deuxième semestre (7 UEs)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>BCC Socle fondamental 2 (SF2, 2 UEs)</p>
+</li>
+<li>
+<p>BCC Bloc optionnel (BO, 2 UEs au choix)</p>
+</li>
+<li>
+<p>BCC Compétences et connaissances transverses (CCT, 3 UEs)</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+les regroupements des UEs en BCC sont différents selon les parcours.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_regroupement_des_ues_en_bcc"><a class="anchor" href="#_regroupement_des_ues_en_bcc"></a><a class="link" href="#_regroupement_des_ues_en_bcc">2.3. Regroupement des UEs en BCC</a></h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col>
+<col style="width: 10%;">
+<col style="width: 10%;">
+<col style="width: 10%;">
+<col style="width: 10%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">UE \ BCC</th>
+<th class="tableblock halign-left valign-top">AMIS</th>
+<th class="tableblock halign-left valign-top">DataScale</th>
+<th class="tableblock halign-left valign-top">IRS</th>
+<th class="tableblock halign-left valign-top">SeCReTS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complément de Maths Discrètes (MIN17101)</p></td>
+<td class="tableblock halign-center valign-middle" colspan="4" rowspan="3"><p class="tableblock">CCB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complément d&#8217;Algo et Complexité (MIN17102)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Complément de Programmation (MIN17103)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Algorithmique randomisée et RO (MIN15111)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Réseaux et systèmes (MIN15112)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Bases de données avancées (MIN15113)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Algorithmique de graphes (MIN15121)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Cryptographie (MIN15122)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">CCB</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF1</strong></mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Méthodes de Ranking (MIN17211)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simulation (MIN17212)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tuning de BD (MIN17213)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Conception de BD (MIN17214)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Protocoles IP (MIN17215)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Réseaux étendus (MIN17216)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Application Web et Sécurité (MIN17217)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Calcul Sécurisé (MIN17218)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><mark><strong>SF2</strong></mark></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Analyses des données EVRY (MIN18000)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">BO</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Anglais (MSANGS2I)</p></td>
+<td class="tableblock halign-center valign-middle" colspan="4" rowspan="3"><p class="tableblock">CCT</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Programmation, GL et Preuve (MIN17201)</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">TER (MIN15221)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_modalités_de_contrôle_de_connaissances"><a class="anchor" href="#_modalités_de_contrôle_de_connaissances"></a><a class="link" href="#_modalités_de_contrôle_de_connaissances">3. Modalités de Contrôle de Connaissances</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_ues_classiques"><a class="anchor" href="#_ues_classiques"></a><a class="link" href="#_ues_classiques">3.1. UEs « classiques »</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Une note de <strong>Contrôle Continu (CC)</strong> constituée de plusieurs notes</p>
+</li>
+<li>
+<p>Une note d’<strong>Examen Terminal (ET)</strong></p>
+</li>
+<li>
+<p>Note Finale = \$("CC" + 2 \times ET) / 3\$</p>
+</li>
+<li>
+<p>L&#8217;UE est acquise si sa note finale est \$&gt;=10/20\$</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+La note de CC est prise en compte également pour la 2ème session !
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_ues_particulières"><a class="anchor" href="#_ues_particulières"></a><a class="link" href="#_ues_particulières">3.2. UEs particulières</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Complément de Maths Discrètes (MIN17101)
+</td>
+<td class="hdlist2">
+<p>seulement un écrit en session 1 et en session 2 (<mark><strong>pas de CC</strong></mark>)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Complément d&#8217;Algo et Complexité (MIN17102)
+</td>
+<td class="hdlist2">
+<p>seulement un écrit en session 1 et en session 2 (<mark><strong>pas de CC</strong></mark>)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Complément de Programmation (MIN17103)
+</td>
+<td class="hdlist2">
+<p>uniquement un CC en session 1 et un écrit en session 2</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Application Web et Sécurité (MIN17217)
+</td>
+<td class="hdlist2">
+<p>uniquement un CC en session 1, <mark><strong>pas de session 2</strong></mark></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Anglais (MSANGS2I)
+</td>
+<td class="hdlist2">
+<p>uniquement un CC en session 1 et un écrit en session 2</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+TER (MIN15221)
+</td>
+<td class="hdlist2">
+<p>uniquement un CC en session 1, <mark><strong>pas de session 2</strong></mark></p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_compensation_entre_ues_au_sein_dun_bcc"><a class="anchor" href="#_compensation_entre_ues_au_sein_dun_bcc"></a><a class="link" href="#_compensation_entre_ues_au_sein_dun_bcc">3.3. Compensation entre UEs au sein d&#8217;un BCC</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Une UE est compensée si la note finale de l&#8217;UE est \$&gt;=7/20\$ et si le BCC est acquis</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Seuil de compensation à \$7/20\$ !
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_au_niveau_des_bccs"><a class="anchor" href="#_au_niveau_des_bccs"></a><a class="link" href="#_au_niveau_des_bccs">3.4. Au niveau des BCCs</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Moyenne Finale = moyenne pondérée par les ECTS des notes finales des UEs qui le constituent</p>
+</li>
+<li>
+<p>Le BCC est acquis si sa moyenne finale est \$&gt;=10/20\$</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+L&#8217;année est acquise si chaque BCC est acquis.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_compensation_entre_bccs"><a class="anchor" href="#_compensation_entre_bccs"></a><a class="link" href="#_compensation_entre_bccs">3.5. Compensation entre BCCs</a></h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+SF1 et SF2 ne sont pas compensables.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<div class="title">Compensations possibles</div>
+<ul>
+<li>
+<p>CCB peut être compensé par SF1</p>
+</li>
+<li>
+<p>CCT et BO peuvent être compensés par SF2, BO et CCT</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_validation_de_lannée"><a class="anchor" href="#_validation_de_lannée"></a><a class="link" href="#_validation_de_lannée">3.6. Validation de l&#8217;année</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Toutes les notes finales des UE doivent être supérieures ou égales au seuil de compensation (7/20).</p>
+</li>
+<li>
+<p>La moyenne des UE du bloc SF1 pondérées par leurs ECTS doit être supérieure ou égale à 10.</p>
+</li>
+<li>
+<p>La moyenne des UE du bloc SF2 pondérées par leurs ECTS doit être supérieure ou égale à 10.</p>
+</li>
+<li>
+<p>La moyenne des UE des blocs SF1 et CCB pondérées par leurs ECTS doit être supérieure ou égale à 10.</p>
+</li>
+<li>
+<p>La moyenne des UE des blocs SF2, BO et CCT pondérées par leurs ECTS doit être supérieure ou égale à 10.</p>
+</li>
+<li>
+<p>La moyenne de toutes les UE de l&#8217;année pondérées par leurs ECTS doit être supérieure ou égale à 10.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_absences"><a class="anchor" href="#_absences"></a><a class="link" href="#_absences">3.7. Absences</a></h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Les cours (CMs et TDs) sont obligatoires.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Absence justifiée (ABJ)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>justificatif déposé à la scolarité dans les 5 jours ouvrés suivants le retour</p>
+</li>
+<li>
+<p>à une épreuve de CC &#8658; épreuve de rattrapage des CC</p>
+</li>
+<li>
+<p>à un examen de session 1 &#8658; 0/20 à l’examen + examen de session 2</p>
+</li>
+<li>
+<p>à un examen de session 2 &#8658; 0/20 à l’examen</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Absence injustifiée (ABI)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>à une épreuve de CC &#8658; 0/20 à l&#8217;épreuve</p>
+</li>
+<li>
+<p>à un examen de session 1 &#8658; <strong>Défaillant</strong> à l’examen + examen de session 2</p>
+</li>
+<li>
+<p>à un examen de session 2 &#8658; <strong>Défaillant</strong> à l’examen</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+le statut <strong>Défaillant</strong> se propage aux résultats du BCC et de l&#8217;année.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_conservationrefus_de_notes"><a class="anchor" href="#_conservationrefus_de_notes"></a><a class="link" href="#_conservationrefus_de_notes">3.8. Conservation/refus de notes</a></h3>
+<div class="paragraph">
+<p>Immédiatement après le jury de 1ère session, vous pouvez faire une demande</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>de <strong>conservation de note</strong> pour une note de première session \$&gt;=7/20\$,</p>
+<div class="ulist">
+<ul>
+<li>
+<p>pas de conservation pour les UEs des blocs fondamentaux (SF1 et SF2)</p>
+</li>
+<li>
+<p>pas de conservation pour les UEs de Compléments (Compléments d&#8217;algorithmique, Compléments de mathématiques et Complément de programmation)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>de <strong>refus de notes</strong> pour une note de première session \$&gt;=10/20\$ s&#8217;il existe une seconde session,</p>
+<div class="ulist">
+<ul>
+<li>
+<p>vous êtes alors ajourné à cette UE et donc à la première session.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>de <strong>refus de compensation</strong> dans un bloc.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>vous êtes alors ajourné à la première session.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>La demande doit être approuvée par le responsable de la formation puis communiquée à la scolarité sous <strong>5 jours ouvrés</strong> à compter de la date de publication des résultats de jurys.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Ces demandes ne peuvent se faire qu&#8217;entre la session 1 et la session 2 <strong>d&#8217;une même année</strong>.
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_redoublement"><a class="anchor" href="#_redoublement"></a><a class="link" href="#_redoublement">3.9. Redoublement</a></h3>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Le redoublement n’est pas systématique mais soumis à la décision du jury.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>D’une année sur l’autre demeurent acquises</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>les UEs des blocs acquis,</p>
+</li>
+<li>
+<p>les UEs acquises.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_changement_de_parcours"><a class="anchor" href="#_changement_de_parcours"></a><a class="link" href="#_changement_de_parcours">3.10. Changement de parcours</a></h3>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+les changements de parcours demeurent exceptionnels.
+</td>
+</tr>
+</table>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Toutes les demandes sont traitées lors des jurys du M1 (premier semestre ou final)</p>
+</li>
+<li>
+<p>L’étudiant doit bien sûr avoir choisi les UEs du BO du parcours cible au second semestre</p>
+</li>
+<li>
+<p>Si le jury accepte le changement de parcours, l’étudiant sera donc “transféré” dans le parcours cible (il devra valider le parcours cible).</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_graduate_school_isn"><a class="anchor" href="#_graduate_school_isn"></a><a class="link" href="#_graduate_school_isn">4. Graduate School ISN</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_graduate_school"><a class="anchor" href="#_graduate_school"></a><a class="link" href="#_graduate_school">4.1. Graduate School ?</a></h3>
+<div class="imageblock">
+<div class="content">
+<img src="figs/gs.png" alt="Graduate School" width="800" height="600">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_gs_informatique_et_sciences_du_numérique_isn"><a class="anchor" href="#_gs_informatique_et_sciences_du_numérique_isn"></a><a class="link" href="#_gs_informatique_et_sciences_du_numérique_isn">4.2. GS Informatique et Sciences du Numérique (ISN)</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>5 opérateurs : Fac des sciences d&#8217;Orsay, UVSQ, Université d&#8217;Évry, CentraleSupélec, ENS Paris-Saclay</p>
+</li>
+<li>
+<p>22 parcours de M1, 23 parcours de M2</p>
+</li>
+<li>
+<p>École doctorale STIC (500 doctorants)</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_rôle_de_la_gs_isn"><a class="anchor" href="#_rôle_de_la_gs_isn"></a><a class="link" href="#_rôle_de_la_gs_isn">4.3. Rôle de la GS ISN</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Pour vous aider
+</td>
+<td class="hdlist2">
+<p>journée d&#8217;accueil, « research week », cérémonie de remise des diplômes</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Pour vous proposer
+</td>
+<td class="hdlist2">
+<p>des opportunités à l&#8217;international, des écoles d&#8217;été, des offres de stages, le réseau des alumni</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="figs/gs_quoi.png" alt="Actions de la GS ISN">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_vos_contacts_à_la_gs_isn"><a class="anchor" href="#_vos_contacts_à_la_gs_isn"></a><a class="link" href="#_vos_contacts_à_la_gs_isn">4.4. Vos contacts à la GS ISN</a></h3>
+<div class="imageblock">
+<div class="content">
+<img src="figs/gs_orga.png" alt="Vos contacts à la GS ISN">
+</div>
+</div>
+</div>
+<div class="sect2 columns">
+<h3 id="_phd_masters_programme"><a class="anchor" href="#_phd_masters_programme"></a><a class="link" href="#_phd_masters_programme">4.5. PhD Master’s programme</a></h3>
+<div class="openblock float-group">
+<div class="content">
+<div class="imageblock right">
+<div class="content">
+<img src="figs/phdmaster.png" alt="PhD Master’s programme" width="450" height="600">
+</div>
+</div>
+<div class="ulist column">
+<ul>
+<li>
+<p>La GS organise un programme pour accompagner les étudiants et étudiantes de niveau master à construire leur projet de thèse et à mieux préparer leur entrée en doctorat.</p>
+</li>
+<li>
+<p>Il est ouvert à tous les étudiants et étudiantes et peut prendre différentes formes : séminaires, mentorat, rencontres avec des chercheurs, forum master/doctorat, etc.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2 columns">
+<h3 id="_phd_track"><a class="anchor" href="#_phd_track"></a><a class="link" href="#_phd_track">4.6. PhD Track</a></h3>
+<div class="openblock float-group">
+<div class="content">
+<div class="imageblock right">
+<div class="content">
+<img src="figs/phdtrack.png" alt="PhD Track" width="450" height="600">
+</div>
+</div>
+<div class="ulist column">
+<ul>
+<li>
+<p>Les étudiants et étudiantes en M1 de l’Université Paris-Saclay peuvent candidater au PhD Track de l’Université, qui propose, sur sélection :</p>
+<div class="ulist">
+<ul>
+<li>
+<p>le suivi du PhD Master’s programme,</p>
+</li>
+<li>
+<p>un accompagnement par un mentor,</p>
+</li>
+<li>
+<p>une <strong>bourse d’étude</strong> de dix mois renouvelable une fois après avis de la commission de suivi du PhD Track,</p>
+</li>
+<li>
+<p>un <strong>contrat doctoral à l’issue du Master 2</strong> sous réserve d’un avis favorable de l’école doctorale concernée,</p>
+</li>
+<li>
+<p>un engagement de l’étudiant ou de l’étudiante à <strong>être ambassadeur ou ambassadrice</strong> de l’Université Paris-Saclay sur sa thématique.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_autour_des_enseignements"><a class="anchor" href="#_autour_des_enseignements"></a><a class="link" href="#_autour_des_enseignements">5. Autour des enseignements</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_service_daccompagnement_des_étudiants_et_des_personnels_en_situation_de_handicap_saeph"><a class="anchor" href="#_service_daccompagnement_des_étudiants_et_des_personnels_en_situation_de_handicap_saeph"></a><a class="link" href="#_service_daccompagnement_des_étudiants_et_des_personnels_en_situation_de_handicap_saeph">5.1. Service d’Accompagnement des Étudiants et des Personnels en situation de Handicap (SAEPH)</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Que vous soyez en situation de handicap temporaire ou permanente,</p>
+</li>
+<li>
+<p>Que vous ayez une maladie chronique, de longue durée ou invalidante,</p>
+</li>
+<li>
+<p>Si votre situation évolue en cours d’année,</p>
+</li>
+</ul>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+<div class="title">N’hésitez pas à vous renseigner sans attendre !</div>
+<div class="paragraph">
+<p>Pour tout renseignement : <a href="https://www.sciences.uvsq.fr/relais-handicap" class="bare">https://www.sciences.uvsq.fr/relais-handicap</a></p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_régime_spécifique_détudes_rse"><a class="anchor" href="#_régime_spécifique_détudes_rse"></a><a class="link" href="#_régime_spécifique_détudes_rse">5.2. Régime spécifique d’études (RSE)</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Dans certaines situations, un étudiant peut bénéficier d&#8217;aménagement de ses études</p>
+<div class="ulist">
+<ul>
+<li>
+<p>en particulier, cela inclut le cas des <strong>étudiants salariés</strong> (sous certaines conditions)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Informations sur le Régime spécifique d’études (RSE) : <a href="https://www.uvsq.fr/les-cas-particuliers" class="bare">https://www.uvsq.fr/les-cas-particuliers</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bourses_et_aides_étudiantes"><a class="anchor" href="#_bourses_et_aides_étudiantes"></a><a class="link" href="#_bourses_et_aides_étudiantes">5.3. Bourses et aides étudiantes</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Les <a href="https://www.uvsq.fr/aides-etudiantes">différentes aides</a> présentés sur le site de l&#8217;UVSQ</p>
+</li>
+<li>
+<p>Les <a href="https://www.universite-paris-saclay.fr/admission/bourses-et-aides-financieres">différentes bourses et aides</a> sur le site de l&#8217;université Paris-Saclay</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_bonnes_pratiques_de_communication_par_email"><a class="anchor" href="#_bonnes_pratiques_de_communication_par_email"></a><a class="link" href="#_bonnes_pratiques_de_communication_par_email">5.4. Bonnes pratiques de communication par email</a></h3>
+<div class="paragraph">
+<p>Pour communiquer avec vos enseignants ou dans le cadre de vos études :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>utilisez systématiquement votre adresse <code>@ens.uvsq.fr</code>,</p>
+</li>
+<li>
+<p>renseignez précisément l&#8217;objet de l&#8217;email,</p>
+</li>
+<li>
+<p>présentez-vous (nom, promo, N° d&#8217;étudiant),</p>
+</li>
+<li>
+<p>expliquez le contexte (pour quelle UE ?),</p>
+</li>
+<li>
+<p>soyez polis, évitez les fautes &#8658; <strong>relisez-vous</strong></p>
+</li>
+<li>
+<p>laissez le temps à votre interlocuteur de vous répondre (pas de harcèlement)</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_liens_utiles"><a class="anchor" href="#_liens_utiles"></a><a class="link" href="#_liens_utiles">6. Liens utiles</a></h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_vos_outils_et_liens"><a class="anchor" href="#_vos_outils_et_liens"></a><a class="link" href="#_vos_outils_et_liens">6.1. Vos outils et liens</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+Emplois du temps
+</td>
+<td class="hdlist2">
+<p><a href="https://edt.uvsq.fr/cal?vt=agendaWeek&amp;et=group&amp;fid0=M1%20Info" class="bare">https://edt.uvsq.fr/cal?vt=agendaWeek&amp;et=group&amp;fid0=M1%20Info</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+ECampus
+</td>
+<td class="hdlist2">
+<p><a href="https://ecampus.paris-saclay.fr" class="bare">https://ecampus.paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Bibliothèque
+</td>
+<td class="hdlist2">
+<p><a href="https://www.bib.uvsq.fr/" class="bare">https://www.bib.uvsq.fr/</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Règlements, outils, informations, &#8230;&#8203;
+</td>
+<td class="hdlist2">
+<p><a href="http://www.sciences.uvsq.fr/vie-etudiante" class="bare">http://www.sciences.uvsq.fr/vie-etudiante</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Règlement des études de l&#8217;université Paris-Saclay
+</td>
+<td class="hdlist2">
+<p><a href="https://www.universite-paris-saclay.fr/reglement-des-etudes" class="bare">https://www.universite-paris-saclay.fr/reglement-des-etudes</a></p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_les_services_de_paris_saclay"><a class="anchor" href="#_les_services_de_paris_saclay"></a><a class="link" href="#_les_services_de_paris_saclay">6.2. Les services de Paris-Saclay</a></h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+L&#8217;accueil des étudiants
+</td>
+<td class="hdlist2">
+<p><a href="mailto:accueil.etudiant@universite-paris-saclay.fr">accueil.etudiant@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+La vie associative
+</td>
+<td class="hdlist2">
+<p><a href="mailto:associations.etudiantes@universite-paris-saclay.fr">associations.etudiantes@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Le logement
+</td>
+<td class="hdlist2">
+<p><a href="mailto:Iogement.etudiant@universite-paris-sacIay.fr">Iogement.etudiant@universite-paris-sacIay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+L’emploi étudiant
+</td>
+<td class="hdlist2">
+<p><a href="mailto:job.etudiant@universite-paris-saclay.fr">job.etudiant@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Les aides sociales et matérielles
+</td>
+<td class="hdlist2">
+<p><a href="mailto:aides.etudiant@universite-paris-saclay.fr">aides.etudiant@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Le handicap
+</td>
+<td class="hdlist2">
+<p><a href="mailto:handicap.etudiant@universite-paris-saclay.fr">handicap.etudiant@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+La CVEC
+</td>
+<td class="hdlist2">
+<p><a href="mailto:cvec.etudiant@universite-paris-sacIay.fr">cvec.etudiant@universite-paris-sacIay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Le service civique
+</td>
+<td class="hdlist2">
+<p><a href="mailto:service.civique@universite-paris-saclay.fr">service.civique@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+La direction
+</td>
+<td class="hdlist2">
+<p><a href="mailto:direction.dveec@universite-paris-saclay.fr">direction.dveec@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Le tutorat
+</td>
+<td class="hdlist2">
+<p><a href="mailto:tutorat.vie-etudiante@universite-paris-saclay.fr">tutorat.vie-etudiante@universite-paris-saclay.fr</a></p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+Plateforme logement CASA
+</td>
+<td class="hdlist2">
+<p><a href="https://casa.universite-paris-saclay.fr/fr/" class="bare">https://casa.universite-paris-saclay.fr/fr/</a></p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_divers"><a class="anchor" href="#_divers"></a><a class="link" href="#_divers">6.3. Divers</a></h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://scienceetonnante.com/2023/09/01/mieux-apprendre-etudier-les-vraies-techniques-scientifiques/">Mieux apprendre &amp; étudier : les (vraies) techniques scientifiques</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Version 2025-2026<br>
+Last updated 2025-09-25 09:34:51 UTC
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
+<script>
+if (!hljs.initHighlighting.called) {
+  hljs.initHighlighting.called = true
+  ;[].slice.call(document.querySelectorAll('pre.highlight > code[data-lang]')).forEach(function (el) { hljs.highlightBlock(el) })
+}
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  messageStyle: "none",
+  tex2jax: {
+    inlineMath: [["\\(", "\\)"]],
+    displayMath: [["\\[", "\\]"]],
+    ignoreClass: "nostem|nolatexmath"
+  },
+  asciimath2jax: {
+    delimiters: [["\\$", "\\$"]],
+    ignoreClass: "nostem|noasciimath"
+  },
+  TeX: { equationNumbers: { autoNumber: "none" } }
+})
+MathJax.Hub.Register.StartupHook("AsciiMath Jax Ready", function () {
+  MathJax.InputJax.AsciiMath.postfilterHooks.Add(function (data, node) {
+    if ((node = data.script.parentNode) && (node = node.parentNode) && node.classList.contains("stemblock")) {
+      data.math.root.display = "block"
+    }
+    return data
+  })
+})
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+</body>
+</html>
