@@ -24,7 +24,22 @@ Inscription Pédagogique:: en ligne (urgent)
 Coordinateurs des M1 informatiques:: Stéphane LOPES (stephane.lopes@uvsq.fr)
 Secrétariat pédagogique du département informatique:: Clémence PEREZ (clemence.perez@uvsq.fr, UFR des Sciences, bât. Descartes, bureau 221B)
 Service de la scolarité de l'UFR des Sciences:: Ophélie BRÉGIER (ophelie.bregier@uvsq.fr, UFR des Sciences, bât. Fermat, Bureau des Master)
+Service de la scolarité de l'ISTY:: Lamia ES-SAI (lamia.es-sai@uvsq.fr, ISTY)
 Directeur du département informatique:: Franck QUESSETTE (franck.quessette@uvsq.fr)
+
+=== Rôles des secrétariats
+* Secrétariat pédagogique
+** gérer les groupes de TD
+** faire l'interface avec les enseignants
+** assister les étudiants dans leurs démarches
+* Service de la scolarité
+** gérer les dossiers administratifs des étudiants (certificats de scolarité, relevés de notes, diplômes, conventions de stage …)
+** gérer le calendrier des études et de la scolarité
+** gérer les calendrier d'examens
+** organiser les Jurys des différents niveaux de formation
+** justifier une absence pour un TD ou CC (dans les 5 jours ouvrés)
+** gestion des Inscription Administrative et Pédagogique
+** demande d'attestation d'assiduité.
 
 === Contacts par Master
 [%header,cols="10,~,~"]
